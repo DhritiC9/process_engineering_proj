@@ -17,6 +17,10 @@ input_ids = tokenizer("translate English to French: The weather is nice today.",
 output = model.generate(**input_ids, cache_implementation="static")
 print(tokenizer.decode(output[0], skip_special_tokens=True))
 
+# Output - Le temps est agréable aujourd'hui.
+
+#------------------------------------------------------------------------------------------------------------------------------------------------
+
 #base T5 code using Quantization which reduces the memory burden of large models by representing the weights in a lower precision. 
 
 #The example below uses torchao to only quantize the weights to int4.
