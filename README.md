@@ -147,15 +147,13 @@ Again, the output is clearly off
 
 
 
-Here’s the refined and formatted version of Section 5 of your GitHub README. It keeps your personal writing style intact while enhancing readability, grammar, and flow:
-
-⸻
 
 5. Alternative Technique
 
 Most of the previous issues were due to tokenisation.
 
-Large Language Models (LLMs) like T5 and Gemini are typically trained to handle real-world text and natural language, not symbolic data or sequences of special characters. During tokenization, these models convert the text into tokens, but in doing so, many important symbols such as brackets and arrows were getting lost. This was the reason for incorrect predictions and mismatched structures.
+Large Language Models (LLMs) like T5 and Gemini are ![image (1)](https://github.com/user-attachments/assets/9234e4ae-4790-4b6b-92a8-9de5c7a45fe5)
+typically trained to handle real-world text and natural language, not symbolic data or sequences of special characters. During tokenization, these models convert the text into tokens, but in doing so, many important symbols such as brackets and arrows were getting lost. This was the reason for incorrect predictions and mismatched structures.
 
 To work around this, I attempted to replace all special characters with corresponding alphabetic representations, for example:
  '[' = OB (Open Bracket)  
