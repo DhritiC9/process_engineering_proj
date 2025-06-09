@@ -410,6 +410,83 @@ PREDICTION B - ![image (2)](https://github.com/user-attachments/assets/e827cb81-
 
 
 
+# ACCURACY
 
+Calculating the accuracy is a major issue as there can be several correct options and thus comparing the ground truth directly won't be practically correct.
 
+The paper uses Top K accuracy, which calculates the accuracy as how many predictions match the ground truth exactly out of the total predictions. We cannot use this method in our model unless its trained on larger epochs and we start getting exactly correct outputs.
+
+Instead we can use the following metrics to calculate the accuracy:-
+
+We will take the example of input 5 from ByT5 as following :-
+
+ ```
+predictions = {
+    "A": "(raw)(comp)[(C){M}<_1](C){PC}_1(C){FC}_2(v)<_2(r)<&|(raw)(comp)[(C){M}<_3](C){PC}_3(C){FC}_4(v)&<_4|[(C){TI}][(C){LC}_5][{bout}(v)<_5(prod)]{tout}(C){PC}_6(v)<_6(pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(prod)",
+    "B": "(raw)(hex)<_1(C){TC}_1(r)<_5<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|[(C){TI}][(C){LC}_4][{bout}(v)<_4(prod)]{tout}(C){PC}_5(v)<_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(prod)",
+    "C": "(raw)(hex)<_1(C){TC}_1(r)<_5<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|[(C){TC}_4][(C){LC}_5][{bout}(v)<_5(prod)]{tout}(C){PC}_6(v)<_6(pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(prod)",
+    "D": "(raw)(hex)<_1(C){TC}_1(r)<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|[(C){TI}][(C){LC}_4][{bout}(v)<_4(prod)]{tout}(C){PC}_5(v)<_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(prod)",
+    "E": "(raw)(hex)<_1(C){TC}_1(r)<_5<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|[(C){TI}][(C){LC}_4][{bout}(v)<_4(prod)]{tout}(C){PC}_5(v)<_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(prod)](C){FC}_7(v)<_7(prod)",
+}
+ground_truth = "(raw)(comp)[(C){M}<_1](C){PC}_1(C){FC}_2(v)<_2(r)<&|(raw)(hex)<_3(C){TC}&_3|[(C){TI}][(C){LC}_4][{bout}(v)<_4(prod)]{tout}(C){PC}_5(v)<_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(prod)"
+```
+## 1. Tokenising
+   The string is tokenized into logical tokens rather than characters for example, as a whole set like :- '<_5','{bout}', '{LC}', '(prod)'  etc
+   The accuracy is then calculated by comparing the tokens in the predicted string to the tokens in the ground truth and the correct matches by the total matches will give us the output
+
+## 2. Exact Match 
+   This is comparing the predicted string directly to the ground truth as a whole.
+
+## 3. Character-Level Accuracy
+   It uses Python's difflib.SequenceMatcher which finds the longest matching blocks between 2 strings and calculates the accuracy by calculating the ratio of matching characters to total characters.
+   ```
+   char_accuracy = (number of matching characters) / (avg length of predicted string + ground truth)
+   ```
+## 4. Levenshtein Distance & Score
+   It calculates the character level changes/ edits made in the string (insertion, deletion, substitution ) assigning a score to these and then calculating the acc based on the number of changes made
+   ```
+dist = Levenshtein.distance(pred, gt)
+score = 1 - dist / max(len(pred), len(gt))
+```
+## 5. BLEU Score - Bilingual Evaluation Understudy 
+   It is used to compare overlapping n tokens we will use only n=1 
+   ```
+BLEU = (number of matching unigrams) / (total unigrams in the predicted string)
+```
+## Output 
+
+Using Input 5 as an example its accuracy output is as follow:-
+
+```
+{'A': {'BLEU Score': 0.7744,
+       'Char Accuracy': 0.873,
+       'Exact Match': 0,
+       'Levenshtein Distance': 35,
+       'Levenshtein Score': 0.8259,
+       'Token Accuracy': 0.3889},
+ 'B': {'BLEU Score': 0.9099,
+       'Char Accuracy': 0.8179,
+       'Exact Match': 0,
+       'Levenshtein Distance': 53,
+       'Levenshtein Score': 0.7056,
+       'Token Accuracy': 0.0833},
+ 'C': {'BLEU Score': 0.8277,
+       'Char Accuracy': 0.7744,
+       'Exact Match': 0,
+       'Levenshtein Distance': 62,
+       'Levenshtein Score': 0.6593,
+       'Token Accuracy': 0.0833},
+ 'D': {'BLEU Score': 0.9325,
+       'Char Accuracy': 0.8249,
+       'Exact Match': 0,
+       'Levenshtein Distance': 51,
+       'Levenshtein Score': 0.7119,
+       'Token Accuracy': 0.5556},
+ 'E': {'BLEU Score': 0.8178,
+       'Char Accuracy': 0.7704,
+       'Exact Match': 0,
+       'Levenshtein Distance': 75,
+       'Levenshtein Score': 0.6287,
+       'Token Accuracy': 0.0833}}
+```
    
