@@ -491,3 +491,39 @@ Using Input 5 as an example its accuracy output is as follow:-
 ```
 
 
+
+
+# WEEK 2
+
+## Different Epochs
+
+To test if increasing the number of epochs has any effect, I have tried finetuning the ByT5-small model with 4200(train-2000, test-400, eval-400) with the first 10 epochs and then 2 epochs, and the results are as follows:-
+
+
+### Result of epochs = 10 
+
+<img width="627" alt="Screenshot 2025-06-16 at 11 26 58 AM" src="https://github.com/user-attachments/assets/27f7c4c7-bd14-4d33-92f6-f7dfc915bd03" />
+
+### Accuracy of predictions
+
+<img width="362" alt="Screenshot 2025-06-16 at 11 35 13 AM" src="https://github.com/user-attachments/assets/55ad1fab-3e47-4621-99b4-a708e3a45758" />
+
+### Result of epochs = 2
+
+<img width="566" alt="Screenshot 2025-06-16 at 11 26 27 AM" src="https://github.com/user-attachments/assets/334ed914-7daa-415e-8547-6cc6967fab8c" />
+
+### Accuracy of predictions
+
+<img width="348" alt="Screenshot 2025-06-16 at 1 02 29 PM" src="https://github.com/user-attachments/assets/2cb9b19f-a045-41b4-90e2-1595116a1b28" />
+
+
+
+
+
+## Accuracy Calculation
+
+1) Run the test in parallel
+2) Compare strings as in the above images
+3) Check if the input string exists in the output string
+4) Remove and count the number of controllers added and their types
+5) Test if visually different Outputs are still Practically correct
