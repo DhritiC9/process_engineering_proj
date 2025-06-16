@@ -497,7 +497,7 @@ Using Input 5 as an example its accuracy output is as follow:-
 
 ## Different Epochs
 
-To test if increasing the number of epochs has any effect, I have tried finetuning the ByT5-small model with 4200(train-2000, test-400, eval-400) with the first 10 epochs and then 2 epochs, and the results are as follows:-
+To test if increasing the number of epochs has any effect, I have tried finetuning the ByT5-small model with 2800(train-2000, test-400, eval-400) with the first 10 epochs and then 2 epochs, and the results are as follows:-
 
 
 ### Result of epochs = 10 
