@@ -527,3 +527,150 @@ To test if increasing the number of epochs has any effect, I have tried finetuni
 3) Check if the input string exists in the output string
 4) Remove and count the number of controllers added and their types
 5) Test if visually different Outputs are still Practically correct
+
+
+
+
+
+
+# 1) Check for exact matches 
+
+## Accuracy of Model 1
+
+<img width="417" alt="Screenshot 2025-06-23 at 1 53 28 PM" src="https://github.com/user-attachments/assets/3fd34975-db1c-4ff1-b713-c3c043c98a94" />
+<img width="451" alt="Screenshot 2025-06-23 at 1 57 54 PM" src="https://github.com/user-attachments/assets/5ac03a03-6abb-47d5-8cab-5473c2628031" />
+<img width="464" alt="Screenshot 2025-06-23 at 2 01 02 PM" src="https://github.com/user-attachments/assets/d07d55af-1299-466e-90c0-d1cc90990a0f" />
+
+
+
+```
+  Input 1:
+(raw)(pp)(v)(v)(mix)<&|(raw)(hex)(v)&|(mix)<&|(raw)(v)&|(pp)(v)(mix)<1(r)(v)(splt)[(prod)](v)1
+Expected Output:
+(raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9
+Model Predictions:
+  Beam 1: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9  --> Match
+  Beam 2: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)<_4(mix)&<&|(raw)(C){FC}_5(v)&<_5||(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9  --> No match
+  Beam 3: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(hex)<_3(C){TC}_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9  --> No match
+  Beam 4: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC<img width="417" alt="Screenshot 2025-06-23 at 1 53 28 PM" src="https://github.com/user-attachments/assets/7399786d-78b7-4997-b97a-b47674c0d92a" />
+}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9n  --> No match
+  Beam 5: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC  --> No match
+### Matches Found: 1 out of 5
+
+------------------------------
+Input 2:
+(raw)(mix)<1(comp)(hex){1}(splt)[(v)1](v)(r)<&|(raw)(hex){2}&|[{bout}(v)(prod)]{tout}(v)(comp)(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2n|(raw)(hex){1}(v)(prod)
+Expected Output:
+(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(v)1<_1](C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)
+Model Predictions:
+  Beam 1: (raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)  --> No match
+  Beam 2: (raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_7<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)  --> No match
+  Beam 3: (raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(comp)[(C){M}<_8](C){PC}_8(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)  --> No match
+  Beam 4: (raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_7<&|(raw)(hex){2}(C){TC}&_5|[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(comp)[(C){M}<_8](C){PC}_8(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)  --> No match
+  Beam 5: (raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_8<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)  --> No match
+### Matches Found: 0 out of 5
+
+------------------------------
+Input 3:
+(raw)(v)(mix)<&|(raw)(mix)<2(comp)(hex){1}(splt)[(v)2](v)&|(hex)(hex){2}(mix)<1(r)(v)(splt)[(hex){3}(prod)](v)1n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3n|(raw)(hex){1}(v)(prod)n|(raw)(hex){3}(v)(prod)
+Expected Output:
+(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)
+Model Predictions:
+  Beam 1: (raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)  --> Match
+  Beam 2: (raw)(C){FFC}_1<_6(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)  --> No match
+  Beam 3: (raw)(C){FFC}_1<_5(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)  --> No match
+  Beam 4: (raw)(C){FFC}_1<_7(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)  --> No match
+  Beam 5: (raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)  --> No match
+### Matches Found: 1 out of 5
+
+Total Samples Evaluated: 1000
+Total Matches Across All Beams: 352 out of 5000
+```
+
+
+Match Count Distribution (out of 5 beams):
+0/5 matching predictions: 668 samples
+1/5 matching predictions: 314 samples
+2/5 matching predictions: 16 samples
+3/5 matching predictions: 2 samples
+4/5 matching predictions: 0 samples
+5/5 matching predictions: 0 samples
+
+
+
+## Accuracy of model 2 (w/o valves)
+
+```
+
+ Input 1:
+(raw)(pp)(v)(v)(mix)<&|(raw)(hex)(v)&|(mix)<&|(raw)(v)&|(pp)(v)(mix)<1(r)(v)(splt)[(prod)](v)1
+Expected Output:
+(raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9
+Model Predictions:
+  Beam 1: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(C){FT}_5(mix)<&|(raw)(C){FFC}_6<_5(v)&<_6|(pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(prod)](C){FC}_10(v)1<_10  --> No match
+  Beam 2: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)<_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(v)<_7(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9  --> No match
+  Beam 3: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)<_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9  --> No match
+  Beam 4: (raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)<_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(v)<_7(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9](v)1<_5  --> No match
+  Beam 5: (raw  --> No match
+Matches Found: 0 out of 5
+
+------------------------------
+Input 2:
+(raw)(mix)<1(comp)(hex){1}(splt)[(v)1](v)(r)<&|(raw)(hex){2}&|[{bout}(v)(prod)]{tout}(v)(comp)(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2n|(raw)(hex){1}(v)(prod)
+Expected Output:
+(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(v)1<_1](C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)
+Model Predictions:
+  Beam 1: (raw)(hex){1}(C){TC}_1(r)<_5<&|(raw)(C){FC}_2(mix)<1(comp)[(C){M}<_3](C){PC}_3(hex){2}(C){TC}_4(splt)[(v)1<_2](C){FC}_5(v)&<_5|[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(v)<_8(comp)[(C){M}<_8](C){PC}_8(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_4n|(raw)(hex){1}(v)<_1(prod)  --> No match
+  Beam 2: (raw)(hex){1}(C){TC}_1(r)<_5<&|(raw)(C){FC}_2(mix)<1(comp)[(C){M}<_3](C){PC}_3(hex){2}(C){TC}_4(splt)[(v)1<_2](C){FC}_5(v)&<_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(v)<_9(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_4n|(raw)(hex){1}(v)<_1(prod)  --> No match
+  Beam 3: (raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(v)1<_1](C){FC}_4(v)<_4(r)<_8<&|(raw)(hex){2}(C){TC}&_5|[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(v)<_8(comp)[(C){M}<_8](C){PC}_8(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)  --> No match
+  Beam 4: (raw)(hex){1}(C){TC}_1(r)<_4<&|(raw)(C){FC}_2(mix)<1(comp)[(C){M}<_3](C){PC}_3(hex){2}(C){TC}_4(splt)[(v)1<_2](C){FC}_5(v)&<_5|[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(v)<_8(comp)[(C){M}<_8](C){PC}_8(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_4n|(raw)(hex){1}(v)<_1(prod)  --> No match
+  Beam 5: (raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(v)1<_1](C){FC}_4(v)<_4(r)<_7<&|(raw)(hex){2}(C){TC}&_5|[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(v)<_8(comp)[(C){M}<_8](C){PC}_8(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)  --> No match
+Matches Found: 0 out of 5
+
+------------------------------
+Input 3:
+(raw)(v)(mix)<&|(raw)(mix)<2(comp)(hex){1}(splt)[(v)2](v)&|(hex)(hex){2}(mix)<1(r)(v)(splt)[(hex){3}(prod)](v)1n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3n|(raw)(hex){1}(v)(prod)n|(raw)(hex){3}(v)(prod)
+Expected Output:
+(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)
+Model Predictions:
+  Beam 1: (raw)(v)<_1(C){FC}_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(v)2<_2](C){FC}_5(v)&<_5|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)  --> No match
+  Beam 2: (raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(v)2<_2](C){FC}_5(v)&<_5|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)  --> No match
+  Beam 3: (raw)(v)<_1(C){FC}_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(v)2<_2](C){FC}_5(v)&<_5|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_11(prod)  --> No match
+  Beam 4: (raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(v)2<_2](C){FC}_5(v)&<_5|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_11(prod)  --> No match
+  Beam 5: (raw)(v)<_1(mix)<&|(raw)(C){FC}_1(mix)<2(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(v)2<_1](C){FC}_4(v)&<_4|(hex)<_5(C){TC}_5(hex){2}(C){TC}_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(hex){3}(C){TC}_9(prod)](C){FC}_10(v)1<_10n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_6n|(raw)(hex){1}(v)<_3(prod)n|(raw)(hex){3}(v)<_9(prod)  --> No match
+Matches Found: 0 out of 5
+```
+
+
+Match Count Distribution (out of 5 beams):
+0/5 matching predictions: 970 samples
+1/5 matching predictions: 30 samples
+2/5 matching predictions: 0 samples
+3/5 matching predictions: 0 samples
+4/5 matching predictions: 0 samples
+5/5 matching predictions: 0 samples	
+
+
+## 2) Colour the controllers 
+
+<img width="1421" alt="Screenshot 2025-06-23 at 2 03 59 PM" src="https://github.com/user-attachments/assets/37b2141b-b95e-4b0f-a2bf-15a376486bfb" />
+
+<img width="1414" alt="Screenshot 2025-06-23 at 2 05 38 PM" src="https://github.com/user-attachments/assets/de63764b-956e-4dce-ac0b-72b25d8c26f4" />
+
+## 3) Remove the controllers and compare
+
+```
+prediction = "(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)(C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)"
+ground_truth = "(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(v)1<_1](C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)"
+```
+<img width="983" alt="Screenshot 2025-06-23 at 2 40 15 PM" src="https://github.com/user-attachments/assets/782aa8f1-dd12-45ea-8164-c458cd7f4b2b" />
+
+
+Logic for future use....
+
+<img width="477" alt="Screenshot 2025-06-23 at 2 35 58 PM" src="https://github.com/user-attachments/assets/6fa6ef32-7cd4-493f-913a-d594416bc442" />
+
+
+
+
+
