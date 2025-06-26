@@ -670,7 +670,18 @@ Logic for future use....
 
 <img width="477" alt="Screenshot 2025-06-23 at 2 35 58 PM" src="https://github.com/user-attachments/assets/6fa6ef32-7cd4-493f-913a-d594416bc442" />
 
+# Accuracy Exact Match
+
+## NORMAL DATASET
+<img width="347" alt="Screenshot 2025-06-26 at 5 51 46 PM" src="https://github.com/user-attachments/assets/66c7254b-a023-4cc4-9fcd-d2a4c13cef5a" />
 
 
+## NO VALVE DATASET
+<img width="380" alt="Screenshot 2025-06-23 at 5 32 47 PM" src="https://github.com/user-attachments/assets/14aa8d16-8917-48b7-be3e-831efd7577ee" />
 
+
+## NO VALVE TO VALVE 
+<img width="377" alt="Screenshot 2025-06-25 at 11 35 06 AM" src="https://github.com/user-attachments/assets/24425c86-5920-44b1-b213-d27a7f8b29a7" />
+
+# Finding Unique Elements
 
