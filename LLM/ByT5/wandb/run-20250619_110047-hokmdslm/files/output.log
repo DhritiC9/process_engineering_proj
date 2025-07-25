@@ -1,0 +1,215 @@
+  0%|                                                 | 0/12500 [00:00<?, ?it/s]Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+  4%|█▍                                   | 500/12500 [09:59<3:49:50,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.4124, 'grad_norm': 26609.373046875, 'learning_rate': 4.8004e-05, 'epoch': 0.4}
+  warnings.warn(                                                                
+{'eval_loss': 0.09021416306495667, 'eval_runtime': 45.6646, 'eval_samples_per_second': 21.899, 'eval_steps_per_second': 1.38, 'epoch': 0.4}
+  8%|██▉                                 | 1000/12500 [20:42<3:38:50,  1.14s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.1151, 'grad_norm': 22180.212890625, 'learning_rate': 4.6004e-05, 'epoch': 0.8}
+  warnings.warn(                                                                
+{'eval_loss': 0.057400770485401154, 'eval_runtime': 44.6647, 'eval_samples_per_second': 22.389, 'eval_steps_per_second': 1.411, 'epoch': 0.8}
+ 12%|████▎                               | 1500/12500 [31:28<3:31:10,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.082, 'grad_norm': 27176.23046875, 'learning_rate': 4.4004e-05, 'epoch': 1.2}
+  warnings.warn(                                                                
+{'eval_loss': 0.046018630266189575, 'eval_runtime': 45.7084, 'eval_samples_per_second': 21.878, 'eval_steps_per_second': 1.378, 'epoch': 1.2}
+ 16%|█████▊                              | 2000/12500 [42:14<3:20:59,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0665, 'grad_norm': 24318.103515625, 'learning_rate': 4.2004000000000006e-05, 'epoch': 1.6}
+  warnings.warn(                                                                
+{'eval_loss': 0.039171043783426285, 'eval_runtime': 45.9353, 'eval_samples_per_second': 21.77, 'eval_steps_per_second': 1.371, 'epoch': 1.6}
+ 20%|███████▏                            | 2500/12500 [53:05<3:12:08,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.057, 'grad_norm': 16088.8759765625, 'learning_rate': 4.0004000000000005e-05, 'epoch': 2.0}
+  warnings.warn(                                                                
+{'eval_loss': 0.032872576266527176, 'eval_runtime': 46.6321, 'eval_samples_per_second': 21.444, 'eval_steps_per_second': 1.351, 'epoch': 2.0}
+ 24%|████████▏                         | 3000/12500 [1:03:55<3:01:43,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0498, 'grad_norm': 13808.4326171875, 'learning_rate': 3.8004000000000004e-05, 'epoch': 2.4}
+  warnings.warn(                                                                
+{'eval_loss': 0.028902631253004074, 'eval_runtime': 45.4666, 'eval_samples_per_second': 21.994, 'eval_steps_per_second': 1.386, 'epoch': 2.4}
+ 28%|█████████▌                        | 3500/12500 [1:14:44<2:52:19,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0445, 'grad_norm': 16465.359375, 'learning_rate': 3.6004e-05, 'epoch': 2.8}
+  warnings.warn(                                                                
+{'eval_loss': 0.02600833587348461, 'eval_runtime': 45.7018, 'eval_samples_per_second': 21.881, 'eval_steps_per_second': 1.379, 'epoch': 2.8}
+ 32%|██████████▉                       | 4000/12500 [1:25:32<2:44:30,  1.16s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0406, 'grad_norm': 13444.2734375, 'learning_rate': 3.4004e-05, 'epoch': 3.2}
+  warnings.warn(                                                                
+{'eval_loss': 0.02404087223112583, 'eval_runtime': 44.9711, 'eval_samples_per_second': 22.236, 'eval_steps_per_second': 1.401, 'epoch': 3.2}
+ 36%|████████████▏                     | 4500/12500 [1:35:59<2:32:51,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0372, 'grad_norm': 13127.7978515625, 'learning_rate': 3.2004e-05, 'epoch': 3.6}
+  warnings.warn(                                                                
+{'eval_loss': 0.02283942885696888, 'eval_runtime': 46.1707, 'eval_samples_per_second': 21.659, 'eval_steps_per_second': 1.365, 'epoch': 3.6}
+ 40%|█████████████▌                    | 5000/12500 [1:46:26<2:23:35,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0354, 'grad_norm': 10212.7236328125, 'learning_rate': 3.0004e-05, 'epoch': 4.0}
+  warnings.warn(                                                                
+{'eval_loss': 0.02134048379957676, 'eval_runtime': 45.7679, 'eval_samples_per_second': 21.849, 'eval_steps_per_second': 1.377, 'epoch': 4.0}
+ 44%|██████████████▉                   | 5500/12500 [1:56:53<2:13:51,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0333, 'grad_norm': 13394.703125, 'learning_rate': 2.8004e-05, 'epoch': 4.4}
+  warnings.warn(                                                                
+{'eval_loss': 0.020256413146853447, 'eval_runtime': 45.7088, 'eval_samples_per_second': 21.878, 'eval_steps_per_second': 1.378, 'epoch': 4.4}
+ 48%|████████████████▎                 | 6000/12500 [2:07:20<2:03:45,  1.14s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0315, 'grad_norm': 12623.021484375, 'learning_rate': 2.6004e-05, 'epoch': 4.8}
+  warnings.warn(                                                                
+{'eval_loss': 0.019822724163532257, 'eval_runtime': 45.4438, 'eval_samples_per_second': 22.005, 'eval_steps_per_second': 1.386, 'epoch': 4.8}
+ 52%|█████████████████▋                | 6500/12500 [2:17:46<1:54:38,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0299, 'grad_norm': 9062.07421875, 'learning_rate': 2.4004000000000003e-05, 'epoch': 5.2}
+  warnings.warn(                                                                
+{'eval_loss': 0.01872406341135502, 'eval_runtime': 45.1247, 'eval_samples_per_second': 22.161, 'eval_steps_per_second': 1.396, 'epoch': 5.2}
+ 56%|███████████████████               | 7000/12500 [2:28:12<1:44:44,  1.14s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0287, 'grad_norm': 22364.330078125, 'learning_rate': 2.2004e-05, 'epoch': 5.6}
+  warnings.warn(                                                                
+{'eval_loss': 0.018355442211031914, 'eval_runtime': 45.3543, 'eval_samples_per_second': 22.049, 'eval_steps_per_second': 1.389, 'epoch': 5.6}
+ 60%|████████████████████▍             | 7500/12500 [2:38:37<1:35:33,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.028, 'grad_norm': 9590.2158203125, 'learning_rate': 2.0004e-05, 'epoch': 6.0}
+  warnings.warn(                                                                
+{'eval_loss': 0.017388416454195976, 'eval_runtime': 45.1729, 'eval_samples_per_second': 22.137, 'eval_steps_per_second': 1.395, 'epoch': 6.0}
+ 64%|█████████████████████▊            | 8000/12500 [2:49:02<1:27:01,  1.16s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0269, 'grad_norm': 9282.630859375, 'learning_rate': 1.8004000000000002e-05, 'epoch': 6.4}
+  warnings.warn(                                                                
+{'eval_loss': 0.01743992231786251, 'eval_runtime': 45.6368, 'eval_samples_per_second': 21.912, 'eval_steps_per_second': 1.38, 'epoch': 6.4}
+ 68%|███████████████████████           | 8500/12500 [2:59:27<1:16:19,  1.14s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0258, 'grad_norm': 13868.9375, 'learning_rate': 1.6003999999999998e-05, 'epoch': 6.8}
+  warnings.warn(                                                                
+{'eval_loss': 0.016536163166165352, 'eval_runtime': 44.8886, 'eval_samples_per_second': 22.277, 'eval_steps_per_second': 1.403, 'epoch': 6.8}
+ 72%|████████████████████████▍         | 9000/12500 [3:09:52<1:06:53,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0256, 'grad_norm': 11868.0361328125, 'learning_rate': 1.4004e-05, 'epoch': 7.2}
+  warnings.warn(                                                                
+{'eval_loss': 0.01602642424404621, 'eval_runtime': 45.7059, 'eval_samples_per_second': 21.879, 'eval_steps_per_second': 1.378, 'epoch': 7.2}
+ 76%|███████████████████████████▎        | 9500/12500 [3:20:17<57:25,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0254, 'grad_norm': 16605.845703125, 'learning_rate': 1.2004e-05, 'epoch': 7.6}
+  warnings.warn(                                                                
+{'eval_loss': 0.015830151736736298, 'eval_runtime': 44.9937, 'eval_samples_per_second': 22.225, 'eval_steps_per_second': 1.4, 'epoch': 7.6}
+ 80%|████████████████████████████       | 10000/12500 [3:30:42<47:58,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0241, 'grad_norm': 12733.990234375, 'learning_rate': 1.0004000000000001e-05, 'epoch': 8.0}
+  warnings.warn(                                                                
+{'eval_loss': 0.015372802503407001, 'eval_runtime': 45.365, 'eval_samples_per_second': 22.043, 'eval_steps_per_second': 1.389, 'epoch': 8.0}
+ 84%|█████████████████████████████▍     | 10500/12500 [3:41:04<38:11,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0236, 'grad_norm': 9248.572265625, 'learning_rate': 8.004e-06, 'epoch': 8.4}
+  warnings.warn(                                                                
+{'eval_loss': 0.015187019482254982, 'eval_runtime': 44.7644, 'eval_samples_per_second': 22.339, 'eval_steps_per_second': 1.407, 'epoch': 8.4}
+ 88%|██████████████████████████████▊    | 11000/12500 [3:51:26<28:37,  1.14s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0229, 'grad_norm': 14186.8720703125, 'learning_rate': 6.0040000000000005e-06, 'epoch': 8.8}
+  warnings.warn(                                                                
+{'eval_loss': 0.014953713864088058, 'eval_runtime': 44.9234, 'eval_samples_per_second': 22.26, 'eval_steps_per_second': 1.402, 'epoch': 8.8}
+ 92%|████████████████████████████████▏  | 11500/12500 [4:01:48<19:02,  1.14s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0232, 'grad_norm': 6762.0712890625, 'learning_rate': 4.004e-06, 'epoch': 9.2}
+  warnings.warn(                                                                
+{'eval_loss': 0.01471798401325941, 'eval_runtime': 44.7282, 'eval_samples_per_second': 22.357, 'eval_steps_per_second': 1.409, 'epoch': 9.2}
+ 96%|█████████████████████████████████▌ | 12000/12500 [4:12:10<09:30,  1.14s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0229, 'grad_norm': 10649.2568359375, 'learning_rate': 2.0039999999999998e-06, 'epoch': 9.6}
+  warnings.warn(                                                                
+{'eval_loss': 0.014654603786766529, 'eval_runtime': 45.0299, 'eval_samples_per_second': 22.207, 'eval_steps_per_second': 1.399, 'epoch': 9.6}
+100%|███████████████████████████████████| 12500/12500 [4:22:31<00:00,  1.14s/it]There were missing keys in the checkpoint model loaded: ['encoder.embed_tokens.weight', 'decoder.embed_tokens.weight'].
+{'loss': 0.0226, 'grad_norm': 8002.62890625, 'learning_rate': 4e-09, 'epoch': 10.0}
+100%|███████████████████████████████████| 12500/12500 [4:22:35<00:00,  1.26s/it]
+{'eval_loss': 0.01462287362664938, 'eval_runtime': 44.5284, 'eval_samples_per_second': 22.458, 'eval_steps_per_second': 1.415, 'epoch': 10.0}
+{'train_runtime': 15757.6243, 'train_samples_per_second': 6.346, 'train_steps_per_second': 0.793, 'train_loss': 0.0533873388671875, 'epoch': 10.0}
+Device set to use cuda:0
+
+PFD Input 1:
+(raw)(pp)(v)(v)(mix)<&|(raw)(hex)(v)&|(mix)<&|(raw)(v)&|(pp)(v)(mix)<1(r)(v)(splt)[(prod)](v)1
+
+ Prediction A:
+(raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9
+
+ Prediction B:
+(raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)<_4(mix)&<&|(raw)(C){FC}_5(v)&<_5||(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9
+
+ Prediction C:
+(raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(hex)<_3(C){TC}_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9
+
+ Prediction D:
+(raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9n
+
+ Prediction E:
+(raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC
+
+ Ground Truth PID:
+(raw)(hex)<_1(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_3(v)<_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(prod)](C){FC}_9(v)1<_9
+
+
+PFD Input 2:
+(raw)(mix)<1(comp)(hex){1}(splt)[(v)1](v)(r)<&|(raw)(hex){2}&|[{bout}(v)(prod)]{tout}(v)(comp)(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2n|(raw)(hex){1}(v)(prod)
+
+ Prediction A:
+(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)
+
+ Prediction B:
+(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_7<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)
+
+ Prediction C:
+(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(comp)[(C){M}<_8](C){PC}_8(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)
+
+ Prediction D:
+(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_7<&|(raw)(hex){2}(C){TC}&_5|[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(comp)[(C){M}<_8](C){PC}_8(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)
+
+ Prediction E:
+(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(C){FC}_4(v)<_4(r)<_8<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)
+
+ Ground Truth PID:
+(raw)(C){FC}_1(mix)<1(comp)[(C){M}<_2](C){PC}_2(hex){1}(C){TC}_3(splt)[(v)1<_1](C){FC}_4(v)<_4(r)<_6<&|(raw)(hex){2}(C){TC}&_5|[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(comp)[(C){M}<_9](C){PC}_9(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5n|(raw)(hex){1}(v)<_3(prod)
+
+
+PFD Input 3:
+(raw)(v)(mix)<&|(raw)(mix)<2(comp)(hex){1}(splt)[(v)2](v)&|(hex)(hex){2}(mix)<1(r)(v)(splt)[(hex){3}(prod)](v)1n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3n|(raw)(hex){1}(v)(prod)n|(raw)(hex){3}(v)(prod)
+
+ Prediction A:
+(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)
+
+ Prediction B:
+(raw)(C){FFC}_1<_6(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)
+
+ Prediction C:
+(raw)(C){FFC}_1<_5(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)
+
+ Prediction D:
+(raw)(C){FFC}_1<_7(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)
+
+ Prediction E:
+(raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)
+
+ Ground Truth PID:
+(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(mix)<2(comp)[(C){M}<_3](C){PC}_3(hex){1}(C){TC}_4(splt)[(C){FC}_5(v)&<_5](v)2<_2|(hex)<_6(C){TC}_6(hex){2}(C){TC}_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){3}(C){TC}_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<3(prod)](v)3<_7n|(raw)(hex){1}(v)<_4(prod)n|(raw)(hex){3}(v)<_10(prod)
+
+
+PFD Input 4:
+(raw)(hex){1}(v)(mix)<&|(raw)(v)(mix)&<&|(raw)&||(r)[{bout}(v)(prod)]{tout}(v)(pp)(v)(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1
+
+ Prediction A:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FFC}_3<_4(v)<_3(mix)&<&|(raw)(C){FT}&_4||(r)<_5[(C){TC}_5][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(pp)[(C){M}](C){PI}(C){FC}_8(v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1
+
+ Prediction B:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FFC}_3<_4(v)<_3(mix)&<&|(raw)(C){FT}&_4||(r)[(C){TI}][(C){LC}_5][{bout}(v)<_5(prod)]{tout}(C){PC}_6(v)<_6(pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1
+
+ Prediction C:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FFC}_3<_4(v)<_3(mix)&<&|(raw)(C){FT}&_4||(r)<_5[(C){TC}_5][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(pp)[(C){M}](C){PI}(C){FC}_8(v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_
+
+ Prediction D:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FFC}_3<_4(v)<_3(mix)&<&|(raw)(C){FT}&_4||(r)<_5[(C){TC}_5][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(pp)[(C){M}](C){PI}(C){FC}_8(v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_2
+
+ Prediction E:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FFC}_3<_4(v)<_3(mix)&<&|(raw)(C){FT}&_4||(r)<_5[(C){TC}_5][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(pp)[(C){M}](C){PI}(C){FC}_8(v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1
+
+ Ground Truth PID:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FFC}_3<_4(v)<_3(mix)&<&|(raw)(C){FT}&_4||(r)[(C){TI}][(C){LC}_5][{bout}(v)<_5(prod)]{tout}(C){PC}_6(v)<_6(pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1
+
+
+PFD Input 5:
+(raw)(v)(tank)(pp)(v)(v)(r)<1(v)(splt)[(hex){1}(v)(tank)(prod)](v)(mix)1<&|(raw)(hex){2}(v)(mix)<&|(raw)(v)&|(mix)<&|(raw)(v)&|(hex){1}&|n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2
+
+ Prediction A:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){2}(mix)<1(r)<_8<&|(raw)(v)<_5(tank)[(C){LC}_5](pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(C){FC}_7(v)&<_7|[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){1}(v)<_10(tank)[(C){LC}_10](prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){1}(mix)<2(prod)](v)2<_1
+
+ Prediction B:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){2}(mix)<1(r)<_9<&|(raw)(v)<_5(tank)[(C){LC}_5](pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(C){FC}_7(v)&<_7|[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){1}(v)<_10(tank)[(C){LC}_10](prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){1}(mix)<2(prod)](v)2<_1
+
+ Prediction C:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){2}(mix)<1(r)<_8<&|(raw)(v)<_5(tank)[(C){LC}_5](pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(C){FC}_7(v)&<_7|[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){2}(v)<_10(tank)[(C){LC}_10](prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){1}(mix)<2(prod)](v)2<_1
+
+ Prediction D:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){2}(mix)<1(r)<_8<&|(raw)(v)<_5(tank)[(C){LC}_5](pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(C){FC}_7(v)&<_7|[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){1}(v)<_10(tank)[(C){LC}_10](prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_1
+
+ Prediction E:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){2}(mix)<1(r)<_8<&|(raw)(v)<_5(tank)[(C){LC}_5](pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(C){FC}_7(v)&<_7|[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){2}(v)<_10(tank)[(C){LC}_10](prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){1}(mix)<2(prod)](v)2<_10
+
+ Ground Truth PID:
+(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(C){FT}_4(mix)<&|(raw)(C){FFC}_5<_4(v)&<_5|(hex){2}(mix)<1(r)<_9<&|(raw)(v)<_6(tank)[(C){LC}_6](pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(C){FC}_8(v)&<_8|[(C){TC}_9][(C){LC}_10](v)<_10(splt)[(hex){2}(v)<_11(tank)[(C){LC}_11](prod)](C){FC}_12(v)1<_12n|(raw)(splt)[(hex){1}(mix)<2(prod)](v)2<_1

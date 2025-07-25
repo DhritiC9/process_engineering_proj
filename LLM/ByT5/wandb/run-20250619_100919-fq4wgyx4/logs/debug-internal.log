@@ -1,0 +1,17 @@
+{"time":"2025-06-19T10:09:20.441782262Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/dhriti/wandb/run-20250619_100919-fq4wgyx4/logs/debug-core.log"}
+{"time":"2025-06-19T10:09:21.093918674Z","level":"INFO","msg":"stream: created new stream","id":"fq4wgyx4"}
+{"time":"2025-06-19T10:09:21.094038721Z","level":"INFO","msg":"stream: started","id":"fq4wgyx4"}
+{"time":"2025-06-19T10:09:21.094066989Z","level":"INFO","msg":"writer: Do: started","stream_id":"fq4wgyx4"}
+{"time":"2025-06-19T10:09:21.094080245Z","level":"INFO","msg":"sender: started","stream_id":"fq4wgyx4"}
+{"time":"2025-06-19T10:09:21.094171204Z","level":"INFO","msg":"handler: started","stream_id":"fq4wgyx4"}
+{"time":"2025-06-19T10:09:21.58591054Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T10:22:59.510353646Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/fq4wgyx4/file_stream\": http: server gave HTTP response to HTTPS client"}
+{"time":"2025-06-19T10:30:14.45613563Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/fq4wgyx4/file_stream\": http: server gave HTTP response to HTTPS client"}
+{"time":"2025-06-19T10:55:18.928588093Z","level":"INFO","msg":"stream: closing","id":"fq4wgyx4"}
+{"time":"2025-06-19T10:55:18.928635172Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T10:55:18.928721905Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T10:55:19.739129706Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T10:55:20.107042002Z","level":"INFO","msg":"handler: closed","stream_id":"fq4wgyx4"}
+{"time":"2025-06-19T10:55:20.107120735Z","level":"INFO","msg":"writer: Close: closed","stream_id":"fq4wgyx4"}
+{"time":"2025-06-19T10:55:20.10715432Z","level":"INFO","msg":"sender: closed","stream_id":"fq4wgyx4"}
+{"time":"2025-06-19T10:55:20.10723424Z","level":"INFO","msg":"stream: closed","id":"fq4wgyx4"}

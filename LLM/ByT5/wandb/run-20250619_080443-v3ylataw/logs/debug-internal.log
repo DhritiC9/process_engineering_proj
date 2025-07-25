@@ -1,0 +1,20 @@
+{"time":"2025-06-19T08:04:43.769912563Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/dhriti/wandb/run-20250619_080443-v3ylataw/logs/debug-core.log"}
+{"time":"2025-06-19T08:04:44.208893259Z","level":"INFO","msg":"stream: created new stream","id":"v3ylataw"}
+{"time":"2025-06-19T08:04:44.2089509Z","level":"INFO","msg":"stream: started","id":"v3ylataw"}
+{"time":"2025-06-19T08:04:44.208987534Z","level":"INFO","msg":"writer: Do: started","stream_id":"v3ylataw"}
+{"time":"2025-06-19T08:04:44.209080087Z","level":"INFO","msg":"sender: started","stream_id":"v3ylataw"}
+{"time":"2025-06-19T08:04:44.209000348Z","level":"INFO","msg":"handler: started","stream_id":"v3ylataw"}
+{"time":"2025-06-19T08:04:44.66599039Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T09:21:00.154422375Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/v3ylataw/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-19T09:21:02.324254833Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/v3ylataw/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-19T09:21:07.218060441Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/v3ylataw/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-19T09:21:15.686635607Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/v3ylataw/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-19T09:21:29.853392171Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-19T09:21:34.035783515Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/v3ylataw/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-19T09:22:01.987433634Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-19T09:22:10.612127918Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/v3ylataw/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-19T09:22:36.808412068Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-19T09:23:10.613758792Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/v3ylataw/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-19T09:23:14.830950688Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-19T09:24:02.036363092Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-19T09:25:06.896865271Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

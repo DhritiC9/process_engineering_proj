@@ -1,0 +1,19 @@
+{"time":"2025-06-24T06:38:40.697635125Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/dhriti/wandb/run-20250624_063840-t3enkla7/logs/debug-core.log"}
+{"time":"2025-06-24T06:38:41.472495729Z","level":"INFO","msg":"stream: created new stream","id":"t3enkla7"}
+{"time":"2025-06-24T06:38:41.472572268Z","level":"INFO","msg":"stream: started","id":"t3enkla7"}
+{"time":"2025-06-24T06:38:41.47259255Z","level":"INFO","msg":"sender: started","stream_id":"t3enkla7"}
+{"time":"2025-06-24T06:38:41.472626586Z","level":"INFO","msg":"writer: Do: started","stream_id":"t3enkla7"}
+{"time":"2025-06-24T06:38:41.472593101Z","level":"INFO","msg":"handler: started","stream_id":"t3enkla7"}
+{"time":"2025-06-24T06:38:42.229453945Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T07:34:49.947467912Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/t3enkla7/file_stream\": http: server gave HTTP response to HTTPS client"}
+{"time":"2025-06-24T12:31:49.9368922Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/t3enkla7/file_stream\": http: server gave HTTP response to HTTPS client"}
+{"time":"2025-06-24T16:02:16.821213895Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/dhritichandan1-9/huggingface/t3enkla7/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-06-24T16:02:46.802309931Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/dhritichandan1-9/huggingface/t3enkla7/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-06-24T16:26:45.666451772Z","level":"INFO","msg":"stream: closing","id":"t3enkla7"}
+{"time":"2025-06-24T16:26:45.666722326Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T16:26:45.667083722Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T16:26:46.56789273Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-24T16:26:46.954142566Z","level":"INFO","msg":"writer: Close: closed","stream_id":"t3enkla7"}
+{"time":"2025-06-24T16:26:46.954236452Z","level":"INFO","msg":"sender: closed","stream_id":"t3enkla7"}
+{"time":"2025-06-24T16:26:46.954058615Z","level":"INFO","msg":"handler: closed","stream_id":"t3enkla7"}
+{"time":"2025-06-24T16:26:46.954973068Z","level":"INFO","msg":"stream: closed","id":"t3enkla7"}

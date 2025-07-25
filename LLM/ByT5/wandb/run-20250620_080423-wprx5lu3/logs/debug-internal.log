@@ -1,0 +1,16 @@
+{"time":"2025-06-20T08:04:23.499021213Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/dhriti/wandb/run-20250620_080423-wprx5lu3/logs/debug-core.log"}
+{"time":"2025-06-20T08:04:23.946688482Z","level":"INFO","msg":"stream: created new stream","id":"wprx5lu3"}
+{"time":"2025-06-20T08:04:23.946749288Z","level":"INFO","msg":"stream: started","id":"wprx5lu3"}
+{"time":"2025-06-20T08:04:23.946784551Z","level":"INFO","msg":"writer: Do: started","stream_id":"wprx5lu3"}
+{"time":"2025-06-20T08:04:23.946800138Z","level":"INFO","msg":"sender: started","stream_id":"wprx5lu3"}
+{"time":"2025-06-20T08:04:23.946888974Z","level":"INFO","msg":"handler: started","stream_id":"wprx5lu3"}
+{"time":"2025-06-20T08:04:24.373591092Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-20T11:23:17.000208222Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/dhritichandan1-9/huggingface/wprx5lu3/file_stream\": http: server gave HTTP response to HTTPS client"}
+{"time":"2025-06-20T12:23:17.188460276Z","level":"INFO","msg":"stream: closing","id":"wprx5lu3"}
+{"time":"2025-06-20T12:23:17.188505271Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-20T12:23:17.188630993Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-20T12:23:18.244309303Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-20T12:23:18.600164627Z","level":"INFO","msg":"handler: closed","stream_id":"wprx5lu3"}
+{"time":"2025-06-20T12:23:18.600239264Z","level":"INFO","msg":"writer: Close: closed","stream_id":"wprx5lu3"}
+{"time":"2025-06-20T12:23:18.600248024Z","level":"INFO","msg":"sender: closed","stream_id":"wprx5lu3"}
+{"time":"2025-06-20T12:23:18.600389565Z","level":"INFO","msg":"stream: closed","id":"wprx5lu3"}

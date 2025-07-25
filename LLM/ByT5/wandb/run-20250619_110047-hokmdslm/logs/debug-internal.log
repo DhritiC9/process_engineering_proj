@@ -1,0 +1,16 @@
+{"time":"2025-06-19T11:00:47.48083974Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/dhriti/wandb/run-20250619_110047-hokmdslm/logs/debug-core.log"}
+{"time":"2025-06-19T11:00:47.919890081Z","level":"INFO","msg":"stream: created new stream","id":"hokmdslm"}
+{"time":"2025-06-19T11:00:47.919976887Z","level":"INFO","msg":"stream: started","id":"hokmdslm"}
+{"time":"2025-06-19T11:00:47.920003918Z","level":"INFO","msg":"writer: Do: started","stream_id":"hokmdslm"}
+{"time":"2025-06-19T11:00:47.920142968Z","level":"INFO","msg":"sender: started","stream_id":"hokmdslm"}
+{"time":"2025-06-19T11:00:47.920034474Z","level":"INFO","msg":"handler: started","stream_id":"hokmdslm"}
+{"time":"2025-06-19T11:00:48.307742792Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T11:40:49.052364176Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/dhritichandan1-9/huggingface/hokmdslm/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-06-19T15:23:37.497550528Z","level":"INFO","msg":"stream: closing","id":"hokmdslm"}
+{"time":"2025-06-19T15:23:37.497639681Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T15:23:37.497727404Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T15:23:38.442971728Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T15:23:38.845020363Z","level":"INFO","msg":"handler: closed","stream_id":"hokmdslm"}
+{"time":"2025-06-19T15:23:38.845083402Z","level":"INFO","msg":"writer: Close: closed","stream_id":"hokmdslm"}
+{"time":"2025-06-19T15:23:38.84512021Z","level":"INFO","msg":"sender: closed","stream_id":"hokmdslm"}
+{"time":"2025-06-19T15:23:38.845247354Z","level":"INFO","msg":"stream: closed","id":"hokmdslm"}

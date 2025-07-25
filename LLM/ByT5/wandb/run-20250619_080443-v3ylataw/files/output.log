@@ -1,0 +1,33 @@
+  0%|                                                 | 0/12500 [00:00<?, ?it/s]Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.48.0. You should pass an instance of `EncoderDecoderCache` instead, e.g. `past_key_values=EncoderDecoderCache.from_legacy_cache(past_key_values)`.
+/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+  4%|█▍                                   | 500/12500 [09:58<3:49:45,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 2.6504, 'grad_norm': 21129.619140625, 'learning_rate': 4.8004e-05, 'epoch': 0.4}
+  warnings.warn(                                                                
+{'eval_loss': 0.08020597696304321, 'eval_runtime': 46.1157, 'eval_samples_per_second': 21.685, 'eval_steps_per_second': 1.366, 'epoch': 0.4}
+  8%|██▉                                 | 1000/12500 [20:29<3:40:21,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0979, 'grad_norm': 17512.619140625, 'learning_rate': 4.6004e-05, 'epoch': 0.8}
+  warnings.warn(                                                                
+{'eval_loss': 0.047494981437921524, 'eval_runtime': 46.1105, 'eval_samples_per_second': 21.687, 'eval_steps_per_second': 1.366, 'epoch': 0.8}
+ 12%|████▎                               | 1500/12500 [31:01<3:33:50,  1.17s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0666, 'grad_norm': 13786.1455078125, 'learning_rate': 4.4004e-05, 'epoch': 1.2}
+  warnings.warn(                                                                
+{'eval_loss': 0.03765640780329704, 'eval_runtime': 46.6364, 'eval_samples_per_second': 21.442, 'eval_steps_per_second': 1.351, 'epoch': 1.2}
+ 16%|█████▊                              | 2000/12500 [41:33<3:21:12,  1.15s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0533, 'grad_norm': 8857.4755859375, 'learning_rate': 4.2004000000000006e-05, 'epoch': 1.6}
+  warnings.warn(                                                                
+{'eval_loss': 0.030900750309228897, 'eval_runtime': 46.4905, 'eval_samples_per_second': 21.51, 'eval_steps_per_second': 1.355, 'epoch': 1.6}
+ 20%|███████▏                            | 2500/12500 [52:06<3:13:13,  1.16s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0456, 'grad_norm': 12870.703125, 'learning_rate': 4.0004000000000005e-05, 'epoch': 2.0}
+  warnings.warn(                                                                
+{'eval_loss': 0.027097569778561592, 'eval_runtime': 46.9095, 'eval_samples_per_second': 21.318, 'eval_steps_per_second': 1.343, 'epoch': 2.0}
+ 24%|████████▏                         | 3000/12500 [1:02:40<3:04:10,  1.16s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.0405, 'grad_norm': 10479.541015625, 'learning_rate': 3.8004000000000004e-05, 'epoch': 2.4}
+  warnings.warn(                                                                
+{'eval_loss': 0.024931786581873894, 'eval_runtime': 46.8025, 'eval_samples_per_second': 21.366, 'eval_steps_per_second': 1.346, 'epoch': 2.4}
+ 28%|█████████▌                        | 3500/12500 [1:13:12<2:55:38,  1.17s/it]/home/dhriti/.conda/envs/byt5/lib/python3.12/site-packages/torch/nn/parallel/_functions.py:70: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.037, 'grad_norm': 9781.427734375, 'learning_rate': 3.6004e-05, 'epoch': 2.8}
+  warnings.warn(                                                                
+{'eval_loss': 0.023418694734573364, 'eval_runtime': 46.1455, 'eval_samples_per_second': 21.671, 'eval_steps_per_second': 1.365, 'epoch': 2.8}
+ 29%|█████████▉                        | 3654/12500 [1:16:14<2:51:46,  1.17s/it]

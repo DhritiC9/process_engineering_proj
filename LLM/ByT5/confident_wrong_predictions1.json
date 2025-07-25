@@ -1,0 +1,145 @@
+[
+  {
+    "input": "(raw)(pp)(v)(mix)<&|(raw)(v)&|(comp)(mix)<&|(raw)(v)&|(hex){1}(pp)(v)(mix)<1(r)[{tout}(v)(prod)]{bout}(v)(splt)[(hex){1}(prod)](v)1",
+    "ground_truth": "(raw)(C){FFC}_1<_6(v)<_1(mix)<&|(raw)(C){FC}_2(v)<_2(mix)<&|(raw)(pp)[(C){M}<_3](C){PI}(C){FC}_3(C){FC}_4(v)&<_4|(comp)[(C){M}<_5](C){PC}_5(C){FT}&_6|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(mix)<1(r)<_8[(C){TC}_8][(C){LC}_9][{tout}(C){PC}_10(v)<_10(prod)]{bout}(v)<_9(splt)[(hex){1}(prod)](C){FC}_11(v)1<_11",
+    "predictions": [
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_2(v)<_2(C){FT}_3(mix)<&|(raw)(C){FFC}_4<_3(v)&<_4|(comp)[(C){M}<_5](C){PC}&_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}<_2](C){PI}(C){FC}_2(C){FC}_3(v)<_3(mix)<&|(raw)(C){FC}_4(v)&<_4|(comp)[(C){M}<_5](C){PC}&_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}<_2](C){PI}(C){FC}_2(C){FC}_3(v)&<_3|(comp)[(C){M}<_4](C){PC}_4(mix)<&|(raw)(C){FC}_5(v)&<_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_2(v)<_2(C){FT}_3(mix)<&|(raw)(C){FFC}_4<_3(v)&<_4|(comp)[(C){M}<_5](C){PC}&_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(prod)](C){FC}_10(v)1<_10n",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_2(v)<_2(C){FT}_3(mix)<&|(raw)(C){FFC}_4<_3(v)&<_4|(comp)[(C){M}<_5](C){PC}&_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(prod)](C){FC}_10(v)1<_10"
+    ],
+    "most_common_prediction": "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}](C){PI}(C){FC}_2(v)<_2(C){FT}_3(mix)<&|(raw)(C){FFC}_4<_3(v)&<_4|(comp)[(C){M}<_5](C){PC}&_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(prod)](C){FC}_10(v)1<_10",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(hex){1}(v)(mix)<&|(raw)(v)&|(mix)<&|(raw)(v)&|(pp)(r)[{bout}(v)(prod)]{tout}(v)(tank)(v)(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1",
+    "ground_truth": "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}<_5](C){PI}(C){FC}_5(r)<_6[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(tank)[(C){LC}_9](v)<_9(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+    "predictions": [
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}<_5](C){PI}(C){FC}_5(r)[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(tank)[(C){LC}_8](v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}<_5](C){PI}(C){FC}_5(r){[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(tank)[(C){LC}_8](v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}<_5](C){PI}(C){FC}_5(r)<_6[(C){TC}_6][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(tank)[(C){LC}_9](v)<_9(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1",
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}<_5](C){PI}(C){FC}_5(r)[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(tank)[(C){LC}_8](v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(C){FT}_4(mix)<&|(raw)(C){FFC}_5<_4(v)&<_5|(pp)[(C){M}<_6](C){PI}(C){FC}_6(r)[(C){TI}][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(tank)[(C){LC}_9](v)<_9(prod)n|(raw)(splt)[(hex){1}(mix)<1(pro"
+    ],
+    "most_common_prediction": "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}<_5](C){PI}(C){FC}_5(r)[(C){TI}][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(tank)[(C){LC}_8](v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(hex){1}(mix)<&|(raw)(v)&|(hex){2}(r)[{bout}(v)(prod)]{tout}(v)(hex){3}(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1n|(raw)(v)(hex){3}(prod)n|(raw)(hex){2}(v)(prod)",
+    "ground_truth": "(raw)(hex){1}(C){TC}_1(C){FT}_2(mix)<&|(raw)(C){FFC}_3<_2(v)&<_3|(hex){2}(C){TC}_4(r)<_5[(C){TC}_5][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(hex){3}(C){TC}_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1n|(raw)(C){FC}_9<_8(v)<_9(hex){3}(prod)n|(raw)(hex){2}(v)<_4(prod)",
+    "predictions": [
+      "(raw)(hex){1}(C){TC}_1(C){FT}_2(mix)<&|(raw)(C){FFC}_3<_2(v)&<_3|(hex){2}(C){TC}_4(r)[(C){TI}][(C){LC}_5][{bout}(v)<_5(prod)]{tout}(C){PC}_6(v)<_6(hex){3}(C){TC}_7(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1n|(raw)(C){FC}_8<_7(v)<_8(hex){3}(prod)n|(raw)(hex){2}(v)<_4(prod)",
+      "(raw)(hex){1}(C){TC}_1(C){FT}_2(mix)<&|(raw)(C){FFC}_3<_2(v)&<_3|(hex){2}(C){TC}_4(r)[(C){TI}][(C){LC}_5][{bout}(v)<_5(prod)]{tout}(C){PC}_6(v)<_6(hex){3}(C){TC}_7(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1n|(raw)(C){FC}_8<_6(v)<_8(hex){3}(prod)n|(raw)(hex){2}(v)<_4(prod)",
+      "(raw)(hex){1}(C){TC}_1(C){FT}_2(mix)<&|(raw)(C){FFC}_3<_2(v)&<_3|(hex){2}(C){TC}_4(r)<_5[(C){TC}_5][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(hex){3}(C){TC}_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1n|(raw)(C){FC}_9<_8(v)<_9(hex){3}(prod)n|(raw)(hex){2}(v)<_4(pr",
+      "(raw)(hex){1}(C){TC}_1(C){FT}_2(mix)<&|(raw)(C){FFC}_3<_2(v)&<_3|(hex){2}(C){TC}_4(r)<_5[(C){TC}_5][(C){LC}_6][{bout}(v)<_6(prod)]{tout}(C){PC}_7(v)<_7(hex){3}(C){TC}_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1n|(raw)(C){FC}_9<_6(v)<_9(hex){3}(prod)n|(raw)(hex){2}(v)<_4(pr",
+      "(raw)(hex){1}(C){TC}_1(C){FT}_2(mix)<&|(raw)(C){FFC}_3<_2(v)&<_3|(hex){2}(C){TC}_4(r)[(C){TI}][(C){LC}_5][{bout}(v)<_5(prod)]{tout}(C){PC}_6(v)<_6(hex){3}(C){TC}_7(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1n|(raw)(C){FC}_8<_7(v)<_8(hex){3}(prod)n|(raw)(hex){2}(v)<_4(prod)"
+    ],
+    "most_common_prediction": "(raw)(hex){1}(C){TC}_1(C){FT}_2(mix)<&|(raw)(C){FFC}_3<_2(v)&<_3|(hex){2}(C){TC}_4(r)[(C){TI}][(C){LC}_5][{bout}(v)<_5(prod)]{tout}(C){PC}_6(v)<_6(hex){3}(C){TC}_7(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1n|(raw)(C){FC}_8<_7(v)<_8(hex){3}(prod)n|(raw)(hex){2}(v)<_4(prod)",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(hex)(v)(mix)<&|(raw)&|(mix)<&|(raw)(v)&|(hex){1}(pp)(v)(r)[{bout}(v)(prod)]{tout}(v)(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1",
+    "ground_truth": "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(C){FT}_4(mix)<&|(raw)(C){FFC}_5<_4(v)&<_5|(hex){1}(C){TC}_6(pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(r)<_8[(C){TC}_8][(C){LC}_9][{bout}(v)<_9(prod)]{tout}(C){PC}_10(v)<_10(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_6",
+    "predictions": [
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(C){TC}_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(r)[(C){TI}][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_5",
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(C){TC}_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(r){[(C){TI}][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_5",
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(C){TC}_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(r)<_7[(C){TC}_7][(C){LC}_8][{bout}(v)<_8(prod)]{tout}(C){PC}_9(v)<_9(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1",
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(C){FT}_4(mix)<&|(raw)(C){FFC}_5<_4(v)&<_5|(hex){1}(C){TC}_6(pp)[(C){M}](C){PI}(C){FC}_7(v)<_7(r)[(C){TI}][(C){LC}_8][{bout}(v)<_8(prod)]{tout}(C){PC}_9(v)<_9(prod)n|(raw)(splt)[(hex){1}(mix)<1(pro",
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(C){TC}_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(r)[(C){TI}][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_5"
+    ],
+    "most_common_prediction": "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(C){TC}_5(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(r)[(C){TI}][(C){LC}_7][{bout}(v)<_7(prod)]{tout}(C){PC}_8(v)<_8(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_5",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(v)(mix)<&|(raw)&|(mix)<&|(raw)(v)&|(hex){1}(comp)(mix)<1(r)<&|(raw)(v)&|<&|(raw)&|(v)(splt)[(hex){1}(pp)(v)(prod)](v)1",
+    "ground_truth": "(raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FT}&_2|(C){FT}_3(mix)<&|(raw)(C){FFC}_4<_3(v)&<_4|(hex){1}(comp)[(C){M}<_5](C){PC}_5(mix)<1(r)<_8<&|(raw)(C){FFC}_6<_7(v)&<_6|<&|(raw)(C){FT}&_7|[(C){TC}_8][(C){LC}_9](v)<_9(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_10(v)<_10(prod)](C){FC}_11(v)1<_11",
+    "predictions": [
+      "(raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FT}&_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(hex){1}(comp)[(C){M}<_4](C){PC}_4(mix)<1(r)<_8<&|(raw)(C){FFC}_5<_6(v)&<_5|<&|(raw)(C){FT}&_6|[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FT}&_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(hex){1}(comp)[(C){M}<_4](C){PC}_4(mix)<1(r)<_7<&|(raw)(C){FFC}_5<_6(v)&<_5|<&|(raw)(C){FT}&_6|[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FT}&_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(hex){1}(comp)[(C){M}<_4](C){PC}_4(mix)<1(r)<_6<&|(raw)(C){FFC}_5<_6(v)&<_5|<&|(raw)(C){FT}&_6|[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FT}&_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(hex){1}(comp)[(C){M}<_4](C){PC}_4(mix)<1(r)<_9<&|(raw)(C){FFC}_5<_6(v)&<_5|<&|(raw)(C){FT}&_6|[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FT}&_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(hex){1}(comp)[(C){M}<_4](C){PC}_4(mix)<1(r)<_8<&|(raw)(C){FFC}_5<_6(v)&<_5|<&|(raw)(C){FT}&_6|[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10"
+    ],
+    "most_common_prediction": "(raw)(C){FFC}_1<_2(v)<_1(mix)<&|(raw)(C){FT}&_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(hex){1}(comp)[(C){M}<_4](C){PC}_4(mix)<1(r)<_8<&|(raw)(C){FFC}_5<_6(v)&<_5|<&|(raw)(C){FT}&_6|[(C){TC}_7][(C){LC}_8](v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(v)(mix)<&|(raw)(v)&|(mix)<&|(raw)(v)&|(mix)<1(r)(v)(splt)[(comp)(prod)](v)1",
+    "ground_truth": "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(v)&<_2|(C){FT}_3(mix)<&|(raw)(C){FFC}_4<_3(v)&<_4|(mix)<1(r)<_5[(C){TC}_5][(C){LC}_6](v)<_6(splt)[(C){FC}_7(v)1<_7](comp)[(C){M}<_8](C){PC}_8(prod)",
+    "predictions": [
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(v)&<_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<1(r)<_4[(C){TC}_4][(C){LC}_5](v)<_5(splt)[(comp)[(C){M}<_6](C){PC}_6(prod)](C){FC}_7(v)1<_7",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(v)&<_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<1(r)<_4[(C){TC}_4][(C){LC}_5](v)<_5(splt)[(C){FC}_6(v)1<_6](comp)[(C){M}<_7](C){PC}_7(prod)",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(v)&<_2|(cix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<1(r)<_4[(C){TC}_4][(C){LC}_5](v)<_5(splt)[(comp)[(C){M}<_6](C){PC}_6(prod)](C){FC}_7(v)1<_7",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(v)&<_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<1(r)<_4[(C){TC}_4][(C){LC}_5](v)<_5(splt)[(C){FC}_6(v)1<_6](comp)[(C){M}<_7](C){PC}_7(prod)1",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(v)&<_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<1(r)<_4[(C){TC}_4][(C){LC}_5](v)<_5(splt)[(C){FC}_6(v)1<_6](comp)[(C){M}<_7](C){PC}_7(prod)"
+    ],
+    "most_common_prediction": "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(C){FC}_2(v)&<_2|(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<1(r)<_4[(C){TC}_4][(C){LC}_5](v)<_5(splt)[(C){FC}_6(v)1<_6](comp)[(C){M}<_7](C){PC}_7(prod)",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(hex){1}(hex){2}(mix)<1(r)[{bout}(v)(prod)]{tout}(v)(splt)[(hex){1}(pp)(v)(prod)](v)1n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2",
+    "ground_truth": "(raw)(hex){1}(hex){2}(C){TC}_1(mix)<1(r)<_2[(C){TC}_2][(C){LC}_3][{bout}(v)<_3(prod)]{tout}(C){PC}_4(v)<_4(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(prod)](C){FC}_6(v)1<_6n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_1",
+    "predictions": [
+      "(raw)(hex){1}(hex){2}(C){TC}_1(mix)<1(r)[(C){TI}][(C){LC}_2][{bout}(v)<_2(prod)]{tout}(C){PC}_3(v)<_3(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_4(v)<_4(prod)](C){FC}_5(v)1<_5n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_1",
+      "(raw)(hex){1}(hex){2}(C){TC}_1(mix)<1(r)[(C){TI}][(C){LC}_2][{bout}(v)<_2(prod)]{tout}(C){PC}_3(v)<_3(splt)[(C){FC}_4(v)1<_4](hex){1}(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(prod)n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_1",
+      "(raw)(hex){1}(hex){2}(C){TC}_1(mix)<1(r){[(C){TI}][(C){LC}_2][{bout}(v)<_2(prod)]{tout}(C){PC}_3(v)<_3(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_4(v)<_4(prod)](C){FC}_5(v)1<_5n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_1",
+      "(raw)(hex){1}(hex){2}(C){TC}_1(mix)<1(r)[(C){TI}][(C){LC}_2][{bout}(v)<_2(prod)]{tout}(C){PC}_3(v)<_3(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_4(v)<_4(prod)](C){FC}_5(v)1<_5n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_1",
+      "(raw)(hex){1}(hex){2}(C){TC}_1(mix)<1(r){[(C){TI}][(C){LC}_2][{bout}(v)<_2(prod)]{tout}(C){PC}_3(v)<_3(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_4(v)<_4(prod)](C){FC}_5(v)1<_5n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_2"
+    ],
+    "most_common_prediction": "(raw)(hex){1}(hex){2}(C){TC}_1(mix)<1(r)[(C){TI}][(C){LC}_2][{bout}(v)<_2(prod)]{tout}(C){PC}_3(v)<_3(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_4(v)<_4(prod)](C){FC}_5(v)1<_5n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_1",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(comp)(v)(mix)<&|(raw)(v)&|(mix)<&|(raw)(v)&|(pp)(v)(mix)<1(r)[{tout}(v)(prod)]{bout}(v)(splt)[(hex)(prod)](v)1",
+    "ground_truth": "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|(C){FT}_4(mix)<&|(raw)(C){FFC}_5<_4(v)&<_5|(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex)<_10(C){TC}_10(prod)](C){FC}_11(v)1<_11",
+    "predictions": [
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex)<_9(C){TC}_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(comp)[(C){M}<_1](C){PC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex)<_9(C){TC}_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)<_3(mix)&<&|(raw)(C){FC}_4(v)&<_4||(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex)<_9(C){TC}_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex)<_9(C){TC}_9(prod)](C){FC}_10(v)1<_10n",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex)<_9(C){TC}_9(prod)](C){FC}_10(v)1<_10"
+    ],
+    "most_common_prediction": "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(comp)[(C){M}<_2](C){PC}_2(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex)<_9(C){TC}_9(prod)](C){FC}_10(v)1<_10",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(hex)(v)(mix)<&|(raw)&|(comp)(mix)<&|(raw)(v)&|(hex){1}(pp)(v)(mix)<1(r)[{tout}(v)(prod)]{bout}(v)(splt)[(hex){1}(pp)(v)(prod)](v)1",
+    "ground_truth": "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(comp)[(C){M}<_4](C){PC}_4(mix)<&|(raw)(C){FC}_5(v)&<_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_10(v)<_10(prod)](C){FC}_11(v)1<_11",
+    "predictions": [
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(comp)[(C){M}<_4](C){PC}&_4|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(comp)[(C){M}<_4](C){PC}_4(mix)<&|(raw)(C){FC}_5(v)&<_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_10(v)<_10",
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(comp)[(C){M}<_4](C){PC}&_4|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10",
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(comp)[(C){M}<_4](C){PC}_4(mix)<&|(raw)(C){FC}_5(v)&<_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_10(v)<",
+      "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(comp)[(C){M}<_4](C){PC}_4(mix)<&|(raw)(C){FC}_5(v)&<_5|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_6(v)<_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_10(v)<_"
+    ],
+    "most_common_prediction": "(raw)(hex)<_1(C){TC}_1(C){FFC}_2<_3(v)<_2(mix)<&|(raw)(C){FT}&_3|(comp)[(C){M}<_4](C){PC}&_4|(hex){1}(pp)[(C){M}](C){PI}(C){FC}_5(v)<_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(pp)[(C){M}](C){PI}(C){FC}_9(v)<_9(prod)](C){FC}_10(v)1<_10",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(pp)(v)(mix)<&|(raw)(v)&|(mix)<&|(raw)(v)&|(hex){1}(hex){2}(mix)<1(r)[{tout}(v)(prod)]{bout}(v)(splt)[(hex){1}(tank)(v)(prod)](v)1n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2",
+    "ground_truth": "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}<_2](C){PI}(C){FC}_2(C){FC}_3(v)&<_3|(C){FT}_4(mix)<&|(raw)(C){FFC}_5<_4(v)&<_5|(hex){1}(hex){2}(C){TC}_6(mix)<1(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(splt)[(hex){1}(tank)[(C){LC}_10](v)<_10(prod)](C){FC}_11(v)1<_11n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_6",
+    "predictions": [
+      "(raw)(pp)[(C){M}<_1](C){PI}(C){FC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(hex){2}(C){TC}_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(tank)[(C){LC}_9](v)<_9(prod)](C){FC}_10(v)1<_10n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}<_2](C){PI}(C){FC}_2(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(hex){2}(C){TC}_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(tank)[(C){LC}_9](v)<_9(prod)](C){FC}_10(v)1<_10n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}<_2](C){PI}(C){FC}_2(C){FC}_3(v)<_3(mix)&<&|(raw)(C){FC}_4(v)&<_4||(hex){1}(hex){2}(C){TC}_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(tank)[(C){LC}_9](v)<_9(prod)](C){FC}_10(v)1<_10n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5",
+      "(raw)(pp)[(C){M}<_1](C){PI}(C){FC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(hex){2}(C){TC}_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(tank)[(C){LC}_9](v)<_9(prod)](C){FC}_10(v)1<_10n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5",
+      "(raw)(C){FC}_1(v)<_1(mix)<&|(raw)(pp)[(C){M}<_2](C){PI}(C){FC}_2(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(hex){2}(C){TC}_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(tank)[(C){LC}_9](v)<_9(prod)](C){FC}_10(v)1<_10n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5"
+    ],
+    "most_common_prediction": "(raw)(pp)[(C){M}<_1](C){PI}(C){FC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(C){FC}_3(v)&<_3|(mix)<&|(raw)(C){FC}_4(v)&<_4|(hex){1}(hex){2}(C){TC}_5(mix)<1(r)<_6[(C){TC}_6][(C){LC}_7][{tout}(C){PC}_8(v)<_8(prod)]{bout}(v)<_7(splt)[(hex){1}(tank)[(C){LC}_9](v)<_9(prod)](C){FC}_10(v)1<_10n|(raw)(splt)[(hex){2}(mix)<2(prod)](v)2<_5",
+    "frequency": 2
+  },
+  {
+    "input": "(raw)(comp)(v)(mix)<&|(raw)(hex){1}(v)&|(mix)<&|(raw)(v)&|(hex){2}(hex)(r)[{tout}(v)(prod)]{bout}(v)(hex){2}(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1",
+    "ground_truth": "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(comp)[(C){M}<_3](C){PC}_3(C){FC}_4(v)&<_4|(C){FT}_5(mix)<&|(raw)(C){FFC}_6<_5(v)&<_6|(hex){2}(hex)<_7(C){TC}_7(r)<_8[(C){TC}_8][(C){LC}_9][{tout}(C){PC}_10(v)<_10(prod)]{bout}(v)<_9(hex){2}(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+    "predictions": [
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(comp)[(C){M}<_3](C){PC}_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(hex){2}(hex)<_6(C){TC}_6(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(hex){2}(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(comp)[(C){M}<_3](C){PC}_3(C){FC}_4(v)<_4(mix)&<&|(raw)(comp)[(C){M}<_5](C){PC}_5(C){FC}_6(v)&<_6||(hex){2}(hex)<_7(C){TC}_7(r)<_8[(C){TC}_8][(C){LC}_9][{tout}(C){PC}_10(v)<_10(prod)]{bout}(v)<_9(hex){2}(prod)n|(raw)(splt)[(hex",
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(comp)[(C){M}<_3](C){PC}_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(hex){2}(hex)<_6(C){TC}_6(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(hex){2}(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(comp)[(C){M}<_3](C){PC}_3(C){FC}_4(v)<_4(mix)&<&|(raw)(comp)[(C){M}<_5](C){PC}_5(C){FC}_6(v)&<_6||(hex){2}(hex)<_7(C){TC}_7(r)<_8[(C){TC}_8][(C){LC}_9][{tout}(C){PC}_10(v)<_10(prod)]{bout}(v)<_9(hex){2}(prod)n|(raw)(splt)[(hex)",
+      "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(comp)[(C){M}<_3](C){PC}_3(C){FC}_4(v)<_4(mix)<&|(raw)(comp)[(C){M}<_5](C){PC}_5(C){FC}_6(v)&<_6|(C){FT}_7(mix)<&|(raw)(C){FFC}_8<_7(v)&<_8|(hex){2}(hex)<_9(C){TC}_9(r)<_10[(C){TC}_10][(C){LC}_11][{tout}(C){PC}_12(v)<_12(prod)"
+    ],
+    "most_common_prediction": "(raw)(hex){1}(C){TC}_1(C){FC}_2(v)<_2(mix)<&|(raw)(comp)[(C){M}<_3](C){PC}_3(C){FC}_4(v)&<_4|(mix)<&|(raw)(C){FC}_5(v)&<_5|(hex){2}(hex)<_6(C){TC}_6(r)<_7[(C){TC}_7][(C){LC}_8][{tout}(C){PC}_9(v)<_9(prod)]{bout}(v)<_8(hex){2}(prod)n|(raw)(splt)[(hex){1}(mix)<1(prod)](v)1<_1",
+    "frequency": 2
+  }
+]
