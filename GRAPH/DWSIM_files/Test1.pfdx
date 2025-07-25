@@ -1,0 +1,2488 @@
+{
+  "ID": "85d05884-9f89-4268-8240-69a930320759",
+  "Name": "MySimulation_31",
+  "Description": "",
+  "PFDObjects": [
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-3973b166-d221-4c73-9e5a-c1a610e6b2ef",
+      "Name": "FEED",
+      "Description": "Material Stream",
+      "X": 124.93115997314453,
+      "Y": 203.97877502441406,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "e240bab0-a678-4dbf-a67e-0e104237944d",
+          "Name": "",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "0632ff42-73a4-4d2f-915c-96c17d4fca24",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 19.999992370605469,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-9310381b-d9cb-4704-87db-d8c030b2745d",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-3973b166-d221-4c73-9e5a-c1a610e6b2ef"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-808174e9-debe-466c-9ba8-b8422218d357",
+      "Name": "DMSO Steam1",
+      "Description": "Material Stream",
+      "X": 104.28626251220703,
+      "Y": 305.75210571289063,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "6ea5f809-9709-4dc6-b92a-3aaa59ad381f",
+          "Name": "REC-aeb566b6-9eff-4bc3-8e05-476fafd0d63f|0",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "REC-aeb566b6-9eff-4bc3-8e05-476fafd0d63f",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "1e1a3842-6700-4567-bc9d-538ac681c495",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-9310381b-d9cb-4704-87db-d8c030b2745d",
+          "ConnectedToObjectPortIndex": 1
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-808174e9-debe-466c-9ba8-b8422218d357"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-402fee10-a42d-46dd-997b-c3100eadc18c",
+      "Name": "3",
+      "Description": "Material Stream",
+      "X": 476.0379638671875,
+      "Y": 138.62406921386719,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "9243d85b-17f5-4541-a633-cb4bc347c3b1",
+          "Name": "COUO-9310381b-d9cb-4704-87db-d8c030b2745d|0",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-9310381b-d9cb-4704-87db-d8c030b2745d",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "8f7cc7c3-abec-4e61-8535-76af76d96fb2",
+          "Name": "",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-402fee10-a42d-46dd-997b-c3100eadc18c"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-6a4d16aa-ac38-4ec4-81be-6eedfb743d31",
+      "Name": "edc1 bottom prod",
+      "Description": "Material Stream",
+      "X": 455.3179931640625,
+      "Y": 326.75247192382813,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "1146df69-bdc3-4cab-adf4-396d8ad171bf",
+          "Name": "COUO-9310381b-d9cb-4704-87db-d8c030b2745d|1",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-9310381b-d9cb-4704-87db-d8c030b2745d",
+          "ConnectedToObjectPortIndex": 1
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "0fb897e9-f3e5-49e9-8764-352c45daa977",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-a69d2247-7ae8-40c9-9ffd-0d4f4d0438bc",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-6a4d16aa-ac38-4ec4-81be-6eedfb743d31"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-809588b6-fb98-462b-b303-66bd982940a9",
+      "Name": "DMSO Stream2",
+      "Description": "Material Stream",
+      "X": 432.72998046875,
+      "Y": 413.31387329101563,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "c9b6f41c-9fbc-46e3-8038-dd54a4aef274",
+          "Name": "REC-b3f63814-8803-478e-9594-25d245e61171|0",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "REC-b3f63814-8803-478e-9594-25d245e61171",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "dffbc679-69dd-4b52-be2d-9f80d8bc5190",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-a69d2247-7ae8-40c9-9ffd-0d4f4d0438bc",
+          "ConnectedToObjectPortIndex": 1
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-809588b6-fb98-462b-b303-66bd982940a9"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-c61c281f-f6ef-48a6-b66f-a35729fbc45f",
+      "Name": "6",
+      "Description": "Material Stream",
+      "X": 767.782958984375,
+      "Y": 222.31745910644531,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "2764eca1-6314-4950-83df-b17e15c0d6d1",
+          "Name": "COUO-a69d2247-7ae8-40c9-9ffd-0d4f4d0438bc|0",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-a69d2247-7ae8-40c9-9ffd-0d4f4d0438bc",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "b9dd6114-1d7a-47f4-86ef-1e843ccbbc6d",
+          "Name": "",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-c61c281f-f6ef-48a6-b66f-a35729fbc45f"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-5ec48f57-1f76-450e-be82-52d6b71da257",
+      "Name": "edc2 bottom prod",
+      "Description": "Material Stream",
+      "X": 741.9119873046875,
+      "Y": 371.86801147460938,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "a502f1c3-a92f-43e1-a73b-e79912cb832a",
+          "Name": "COUO-a69d2247-7ae8-40c9-9ffd-0d4f4d0438bc|1",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-a69d2247-7ae8-40c9-9ffd-0d4f4d0438bc",
+          "ConnectedToObjectPortIndex": 1
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "dfab0cfb-02f3-4155-87eb-69f874855ea7",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-01477f1e-1525-4de0-b20e-61d34742ae75",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-5ec48f57-1f76-450e-be82-52d6b71da257"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-047fb36b-3763-4d5d-8f05-aab41e358ef7",
+      "Name": "8",
+      "Description": "Material Stream",
+      "X": 1055.696044921875,
+      "Y": 295.18698120117188,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "00c049f6-ef45-45a2-aed0-485918320a04",
+          "Name": "COUO-01477f1e-1525-4de0-b20e-61d34742ae75|0",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-01477f1e-1525-4de0-b20e-61d34742ae75",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "1f68ad76-f28e-48a1-adc1-2061943cb05d",
+          "Name": "",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-047fb36b-3763-4d5d-8f05-aab41e358ef7"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-e984587b-415c-44c6-aedd-86cec6180ce2",
+      "Name": "erc bottom prod",
+      "Description": "Material Stream",
+      "X": 1055.3759765625,
+      "Y": 449.56338500976563,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "865a4193-316b-4c2b-9c9c-3fc97b2dcf5c",
+          "Name": "COUO-01477f1e-1525-4de0-b20e-61d34742ae75|1",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "COUO-01477f1e-1525-4de0-b20e-61d34742ae75",
+          "ConnectedToObjectPortIndex": 1
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "a3feb310-f8fc-4abd-853b-c45a3f18b6e2",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MIST-d6a64247-f208-48e2-b98b-6a9c8d3e2637",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-e984587b-415c-44c6-aedd-86cec6180ce2"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928",
+      "Name": "CL-1",
+      "Description": "Material Stream Cooler",
+      "X": 1177.656982421875,
+      "Y": 428.11550903320313,
+      "Width": 25.0,
+      "Height": 25.0,
+      "ObjectType": 5,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "03a073de-a8eb-4cb4-b6cf-a59c78ce664f",
+          "Name": "Inlet",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 12.5,
+          "Index": 0,
+          "ConnectedToObjectID": "MAT-9e1d4ebc-5648-411b-a579-92023b043a15",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "8d1048ca-6b82-45b1-afa5-ccfe1181e6e9",
+          "Name": "Energy Stream (Secondary)",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 12.5,
+          "RelativeY": 0.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "9d520c14-e9ca-4217-8394-d9239083531b",
+          "Name": "Outlet",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 25.0,
+          "RelativeY": 12.5,
+          "Index": 0,
+          "ConnectedToObjectID": "MAT-4149104d-6539-4434-864b-36634b94fc32",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "EN-80b862cc-57c7-402e-9a32-630848ff7617",
+      "Name": "E1",
+      "Description": "Energy Stream",
+      "X": 1406.090087890625,
+      "Y": 523.77008056640625,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 1,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "32fc056a-5940-459e-8b66-c7adeaa850c5",
+          "Name": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928|-1",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928",
+          "ConnectedToObjectPortIndex": -1
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "aafaf054-5675-49ee-9c61-b0851eb8e71a",
+          "Name": "",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "EN-80b862cc-57c7-402e-9a32-630848ff7617"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-4149104d-6539-4434-864b-36634b94fc32",
+      "Name": "10",
+      "Description": "Material Stream",
+      "X": 1029.137939453125,
+      "Y": 74.040786743164063,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "1998e9f2-6fd8-4c80-ad0b-0623b7973a37",
+          "Name": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928|0",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "b4baaa55-8f66-48b8-a688-9e11d526d5cc",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-4149104d-6539-4434-864b-36634b94fc32"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MIST-d6a64247-f208-48e2-b98b-6a9c8d3e2637",
+      "Name": "MIX-1",
+      "Description": "Material Stream Mixer",
+      "X": 1050.8310546875,
+      "Y": 590.90106201171875,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 2,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "ecdfd112-f458-4d04-abeb-c93adaf234a4",
+          "Name": "Inlet Stream 1",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 0.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MAT-e984587b-415c-44c6-aedd-86cec6180ce2",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "e6776359-fc66-44fd-9f22-96fbfc77ed7d",
+          "Name": "Inlet Stream 2",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 4.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MAT-3a697d22-0da8-491f-9628-25f8e10179d1",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "6a69a70c-0364-4b68-afa2-25caea20295e",
+          "Name": "Inlet Stream 3",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 8.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "2f2411ec-53fd-470a-b5ce-1c5197e3ad83",
+          "Name": "Inlet Stream 4",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 12.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "eb4bc888-0ee1-4353-ad84-80921589a163",
+          "Name": "Inlet Stream 5",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 16.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "85a6b616-2e79-42cb-b87e-f0771cdc2d47",
+          "Name": "Inlet Stream 6",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 20.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "876b2cbb-e0ab-4e62-8b54-8db2b3697ffd",
+          "Name": "Mixed Stream",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MAT-9e1d4ebc-5648-411b-a579-92023b043a15",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MIST-d6a64247-f208-48e2-b98b-6a9c8d3e2637"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-3a697d22-0da8-491f-9628-25f8e10179d1",
+      "Name": "makeup",
+      "Description": "Material Stream",
+      "X": 912.9659423828125,
+      "Y": 597.29766845703125,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "034b1da4-1e77-40d3-8323-68e5610e5d6d",
+          "Name": "",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "6563ed11-7c9c-4b08-b5b7-c7687f3ac7f9",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MIST-d6a64247-f208-48e2-b98b-6a9c8d3e2637",
+          "ConnectedToObjectPortIndex": 1
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-3a697d22-0da8-491f-9628-25f8e10179d1"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-9e1d4ebc-5648-411b-a579-92023b043a15",
+      "Name": "14",
+      "Description": "Material Stream",
+      "X": 1126.7330322265625,
+      "Y": 548.12164306640625,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "2bb20323-39f6-4594-8f4c-3a3604d98637",
+          "Name": "MIST-d6a64247-f208-48e2-b98b-6a9c8d3e2637|0",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MIST-d6a64247-f208-48e2-b98b-6a9c8d3e2637",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "a20798c2-4e89-4295-b8a9-e899b2bd5a67",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-9e1d4ebc-5648-411b-a579-92023b043a15"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108",
+      "Name": "SPL-1",
+      "Description": "Material Stream Splitter",
+      "X": 870.7939453125,
+      "Y": 94.989883422851563,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 3,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "cd9246de-efd9-4c6c-b9ca-5f413d8b0e96",
+          "Name": "Inlet",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MAT-4149104d-6539-4434-864b-36634b94fc32",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "494accdf-2f18-4f6a-bfd3-42ec28853ae1",
+          "Name": "Outlet 1",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 0.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MAT-ff6d7126-a56f-4482-99b0-ac1ed72b7ef6",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "27cd0d0b-357e-4217-bb48-eec00e14c992",
+          "Name": "Outlet 2",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "MAT-16bc4efd-2ae8-4ae1-a5e4-17bef1c38afe",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "e709e06b-6bed-4993-8796-af459e9c43e2",
+          "Name": "Outlet 3",
+          "Description": "",
+          "IsConnected": false,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 20.0,
+          "Index": 0,
+          "ConnectedToObjectID": null,
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-ff6d7126-a56f-4482-99b0-ac1ed72b7ef6",
+      "Name": "16",
+      "Description": "Material Stream",
+      "X": 21.6203670501709,
+      "Y": 45.9009895324707,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "90f84f40-0ed6-44f8-b908-78c78233f43f",
+          "Name": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108|0",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108",
+          "ConnectedToObjectPortIndex": 0
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "41bb37ae-7552-4ffe-97e9-8e434cc19f2f",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.000001907348633,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "REC-aeb566b6-9eff-4bc3-8e05-476fafd0d63f",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-ff6d7126-a56f-4482-99b0-ac1ed72b7ef6"
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PFDObject, XFlowsheet",
+      "ID": "MAT-16bc4efd-2ae8-4ae1-a5e4-17bef1c38afe",
+      "Name": "17",
+      "Description": "Material Stream",
+      "X": 558.362060546875,
+      "Y": 120.64707946777344,
+      "Width": 20.0,
+      "Height": 20.0,
+      "ObjectType": 0,
+      "Ports": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "4298e4de-fe4a-476e-a586-3ee104d952b5",
+          "Name": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108|1",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": true,
+          "IsOutput": false,
+          "IsEnergyPort": false,
+          "RelativeX": 0.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108",
+          "ConnectedToObjectPortIndex": 1
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+ConnectionPort, XFlowsheet",
+          "ID": "88d07212-7b5e-4b28-9745-c0c27f1d0e9d",
+          "Name": "",
+          "Description": "",
+          "IsConnected": true,
+          "IsInput": false,
+          "IsOutput": true,
+          "IsEnergyPort": false,
+          "RelativeX": 20.0,
+          "RelativeY": 10.0,
+          "Index": 0,
+          "ConnectedToObjectID": "REC-b3f63814-8803-478e-9594-25d245e61171",
+          "ConnectedToObjectPortIndex": 0
+        }
+      ],
+      "HasAssociatedSimulationObject": true,
+      "AssociatedSimulationObjectID": "MAT-16bc4efd-2ae8-4ae1-a5e4-17bef1c38afe"
+    }
+  ],
+  "SimulationObjects": [
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "REC-b3f63814-8803-478e-9594-25d245e61171",
+      "Name": "R-2",
+      "Description": null,
+      "PropertyPackageID": null,
+      "PFDObjectID": "REC-b3f63814-8803-478e-9594-25d245e61171",
+      "ObjectType": 0,
+      "Parameters": [],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-16bc4efd-2ae8-4ae1-a5e4-17bef1c38afe",
+      "Name": "17",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-16bc4efd-2ae8-4ae1-a5e4-17bef1c38afe",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 308.15,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -645.46590576179426,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.4269147719409936,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 7.96365468888886,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              3.8578044154888718E-05,
+              0.99833000961295049,
+              3.8578044154886313E-05,
+              0.0015928342987398753
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PH",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-ff6d7126-a56f-4482-99b0-ac1ed72b7ef6",
+      "Name": "16",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-ff6d7126-a56f-4482-99b0-ac1ed72b7ef6",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 308.15,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -645.46590576179426,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.4269147719409936,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 20.837989755555483,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              3.8578044154888718E-05,
+              0.99833000961295049,
+              3.8578044154886313E-05,
+              0.0015928342987398753
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PH",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "REC-aeb566b6-9eff-4bc3-8e05-476fafd0d63f",
+      "Name": "R-1",
+      "Description": null,
+      "PropertyPackageID": null,
+      "PFDObjectID": "REC-aeb566b6-9eff-4bc3-8e05-476fafd0d63f",
+      "ObjectType": 0,
+      "Parameters": [],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-9e1d4ebc-5648-411b-a579-92023b043a15",
+      "Name": "14",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-9e1d4ebc-5648-411b-a579-92023b043a15",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 436.22980156210332,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -386.83695968956789,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -0.72816157458882791,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.00041338591379105807,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 28.801644444444342,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              3.8578044154888718E-05,
+              0.99833000961295049,
+              3.8578044154886313E-05,
+              0.0015928342987398753
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PH",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-3a697d22-0da8-491f-9628-25f8e10179d1",
+      "Name": "makeup",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-3a697d22-0da8-491f-9628-25f8e10179d1",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 298.15,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -640.22082709987023,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.4335506599921302,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 0.00444444444444444,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108",
+      "Name": "SPL-1",
+      "Description": null,
+      "PropertyPackageID": null,
+      "PFDObjectID": "DIV-c8e67f6b-693c-488c-80b4-f64424c61108",
+      "ObjectType": 0,
+      "Parameters": [],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MIST-d6a64247-f208-48e2-b98b-6a9c8d3e2637",
+      "Name": "MIX-1",
+      "Description": null,
+      "PropertyPackageID": null,
+      "PFDObjectID": "MIST-d6a64247-f208-48e2-b98b-6a9c8d3e2637",
+      "ObjectType": 0,
+      "Parameters": [],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-4149104d-6539-4434-864b-36634b94fc32",
+      "Name": "10",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-4149104d-6539-4434-864b-36634b94fc32",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 308.15,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -645.46590576179426,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.4269147719409936,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 28.801644444444342,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              3.8578044154888718E-05,
+              0.99833000961295049,
+              3.8578044154886313E-05,
+              0.0015928342987398753
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "EN-80b862cc-57c7-402e-9a32-630848ff7617",
+      "Name": "E1",
+      "Description": null,
+      "PropertyPackageID": null,
+      "PFDObjectID": "EN-80b862cc-57c7-402e-9a32-630848ff7617",
+      "ObjectType": 1,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "EnergyFlow",
+          "Name": "EnergyFlow",
+          "Description": "Energy Flow",
+          "Value": 581.29906021724514,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928",
+      "Name": "CL-1",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "RESF-29853c97-93b8-413d-afcd-cf1a35e2a928",
+      "ObjectType": 5,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "HeatDuty",
+          "Name": "HeatDuty",
+          "Description": "Heat Duty",
+          "Value": 581.29906021724514,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Efficiency",
+          "Name": "Efficiency",
+          "Description": "Efficiency",
+          "Value": 100.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "COUO-a69d2247-7ae8-40c9-9ffd-0d4f4d0438bc",
+      "Name": "EDC2",
+      "Description": null,
+      "PropertyPackageID": null,
+      "PFDObjectID": "COUO-a69d2247-7ae8-40c9-9ffd-0d4f4d0438bc",
+      "ObjectType": 0,
+      "Parameters": [],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-6a4d16aa-ac38-4ec4-81be-6eedfb743d31",
+      "Name": "edc1 bottom prod",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-6a4d16aa-ac38-4ec4-81be-6eedfb743d31",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 345.10370374073307,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -611.45535888999439,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.2071798677855261,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 39.4531,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              0.23144478993258,
+              0.52733508204151,
+              0.001201303778125,
+              0.24001882424779
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-402fee10-a42d-46dd-997b-c3100eadc18c",
+      "Name": "3",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-402fee10-a42d-46dd-997b-c3100eadc18c",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 318.82463640319804,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -408.52227065510635,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.1896789443043287,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 9.1626675333338,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              0.0039569387118919,
+              1.9109320087961E-11,
+              0.99535155720627,
+              0.00069150406272991
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "COUO-9310381b-d9cb-4704-87db-d8c030b2745d",
+      "Name": "EDC1",
+      "Description": null,
+      "PropertyPackageID": null,
+      "PFDObjectID": "COUO-9310381b-d9cb-4704-87db-d8c030b2745d",
+      "ObjectType": 0,
+      "Parameters": [],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-808174e9-debe-466c-9ba8-b8422218d357",
+      "Name": "DMSO Steam1",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-808174e9-debe-466c-9ba8-b8422218d357",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 308.15,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -645.46590576179426,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.4269147719409936,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 20.837989755555483,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              3.8578044154888718E-05,
+              0.99833000961295049,
+              3.8578044154886313E-05,
+              0.0015928342987398753
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-3973b166-d221-4c73-9e5a-c1a610e6b2ef",
+      "Name": "FEED",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-3973b166-d221-4c73-9e5a-c1a610e6b2ef",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 313.15,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -587.20164657345526,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.4269051651023108,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 27.7777777777778,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              0.33,
+              0.0,
+              0.33,
+              0.34
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-809588b6-fb98-462b-b303-66bd982940a9",
+      "Name": "DMSO Stream2",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-809588b6-fb98-462b-b303-66bd982940a9",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 308.15,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -645.46590576179426,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.4269147719409936,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 7.96365468888886,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              3.8578044154888718E-05,
+              0.99833000961295049,
+              3.8578044154886313E-05,
+              0.0015928342987398753
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-c61c281f-f6ef-48a6-b66f-a35729fbc45f",
+      "Name": "6",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-c61c281f-f6ef-48a6-b66f-a35729fbc45f",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 330.2382137106045,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -335.91594319022374,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -0.93785658035639985,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 9.1778546888888,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              0.99431005383634,
+              9.4278431786623E-05,
+              0.0051971931474492,
+              0.00039847458442411
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-5ec48f57-1f76-450e-be82-52d6b71da257",
+      "Name": "edc2 bottom prod",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-5ec48f57-1f76-450e-be82-52d6b71da257",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 406.86547645954016,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -576.34796945476137,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -1.0200661631651664,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 38.2389,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              0.00015399561714599,
+              0.75198781223728,
+              8.6247847990925E-08,
+              0.24785810589773
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "COUO-01477f1e-1525-4de0-b20e-61d34742ae75",
+      "Name": "ERC",
+      "Description": null,
+      "PropertyPackageID": null,
+      "PFDObjectID": "COUO-01477f1e-1525-4de0-b20e-61d34742ae75",
+      "ObjectType": 0,
+      "Parameters": [],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-047fb36b-3763-4d5d-8f05-aab41e358ef7",
+      "Name": "8",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-047fb36b-3763-4d5d-8f05-aab41e358ef7",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 353.78220927896479,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -2325.220443056859,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -6.1601882121070535,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 9.4417000000003,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              0.00062368259052152,
+              0.00029145105501482,
+              3.4930398894376E-07,
+              0.99908451705047
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    },
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+SimulationObject, XFlowsheet",
+      "ID": "MAT-e984587b-415c-44c6-aedd-86cec6180ce2",
+      "Name": "erc bottom prod",
+      "Description": null,
+      "PropertyPackageID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "PFDObjectID": "MAT-e984587b-415c-44c6-aedd-86cec6180ce2",
+      "ObjectType": 0,
+      "Parameters": [
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Temperature",
+          "Name": "Temperature",
+          "Description": "Stream Temperature",
+          "Value": 436.35541823343061,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "Pressure",
+          "Name": "Pressure",
+          "Description": "Stream Pressure",
+          "Value": 50000.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEnthalpy",
+          "Name": "MassEnthalpy",
+          "Description": "Stream Mass Enthalpy",
+          "Value": -386.8049334133774,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "MassEntropy",
+          "Name": "MassEntropy",
+          "Description": "Stream Mass Entropy",
+          "Value": -0.72825077092004342,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "VaporFraction",
+          "Name": "VaporFraction",
+          "Description": "Stream Vapor Fraction",
+          "Value": 0.0,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarFlow",
+          "Name": "OverallMolarFlow",
+          "Description": "Stream Molar Flow",
+          "Value": 28.7972,
+          "ValueType": 5,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "OverallMolarComposition",
+          "Name": "OverallMolarComposition",
+          "Description": "Stream Molar Composition",
+          "Value": {
+            "$type": "System.Collections.Generic.List`1[[System.Double, mscorlib]], mscorlib",
+            "$values": [
+              2.4102120735246E-18,
+              0.99844550386773,
+              1.9228803215339E-22,
+              0.0015544961322667
+            ]
+          },
+          "ValueType": 11,
+          "Units": 47,
+          "DefaultUnits": ""
+        },
+        {
+          "$type": "XFlowsheet.Implementation.DefaultImplementations+Parameter, XFlowsheet",
+          "ID": "FlashSpec",
+          "Name": "FlashSpec",
+          "Description": "Stream Flash Spec",
+          "Value": "PT",
+          "ValueType": 3,
+          "Units": 47,
+          "DefaultUnits": ""
+        }
+      ],
+      "ExtendedParameters": []
+    }
+  ],
+  "PropertyPackages": [
+    {
+      "$type": "XFlowsheet.Implementation.DefaultImplementations+PropertyPackage, XFlowsheet",
+      "ID": "PP-bcaec40d-50d8-49df-af6d-d669025a29cc",
+      "Name": "UNIQUAC",
+      "Description": "Uses UNIQUAC model to calculate liquid-phase activity coefficients.",
+      "Model": 5,
+      "Parameters": []
+    }
+  ],
+  "Compounds": [
+    "Ethyl acetate",
+    "Dimethyl sulfoxide",
+    "Tetrahydrofuran",
+    "Water"
+  ],
+  "Parameters": [],
+  "DisplayedUnitsOfMeasure": 0
+}

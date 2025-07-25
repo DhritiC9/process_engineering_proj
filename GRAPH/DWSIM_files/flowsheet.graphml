@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="MS-c229021f-5973-473a-8073-758181f89802">
+  <data key="d0">benzene</data>
+</node>
+<node id="PUMP-fdacf378-d8b9-454f-a079-b83a29d3eb65">
+  <data key="d0">PUMP</data>
+</node>
+<node id="ES-67046f70-b4a1-4a8d-8c3f-5891b80afc1d">
+  <data key="d0">ES_pump01</data>
+</node>
+<node id="MS-603a9565-4f3b-4d18-9065-dcf8dc327c0d">
+  <data key="d0">benzene_2</data>
+</node>
+<node id="MS-2ad36d14-f13c-438e-887a-d58e60f26572">
+  <data key="d0">oxygen</data>
+</node>
+<node id="MIX-0afff2b2-9669-4cae-bb1b-d49784d74f8f">
+  <data key="d0">air pure</data>
+</node>
+<node id="MS-df1441ac-5a96-48f6-b757-3d162b81477c">
+  <data key="d0">nitrogen</data>
+</node>
+<node id="MS-2924df7a-3d50-4223-8ce3-e61da9746b25">
+  <data key="d0">air</data>
+</node>
+<node id="C-9e32b4bd-80b8-4577-a32a-c5e546cfd2b2">
+  <data key="d0">C</data>
+</node>
+<node id="HX-42e98597-e94d-4e11-8e74-a4bcf845d561">
+  <data key="d0">HX</data>
+</node>
+<node id="MS-9c9fddf4-97c7-40ce-b4f6-beec551924b2">
+  <data key="d0">benzene_3</data>
+</node>
+<node id="MIX-bd249e95-c9ec-49c4-9918-af6205efc0d1">
+  <data key="d0">MIX</data>
+</node>
+<node id="MS-28c6916d-d26e-4127-a373-9f2bf2ce940d">
+  <data key="d0">lps_vapouriser</data>
+</node>
+<node id="MS-81ab41e4-7a5d-4b17-ac14-064a40dd3a32">
+  <data key="d0">lps_vapouriser_CLONE</data>
+</node>
+<node id="MS-81a17779-c03d-4eda-9d8d-b9b2df7f1e49">
+  <data key="d0">air_1_CLONE</data>
+</node>
+<node id="MS-d5029b2f-d648-4dd9-9674-a4bd74dabb05">
+  <data key="d0">feed</data>
+</node>
+<node id="HT-0dbe2f6f-1310-42a9-bafc-f54d6e4cae49">
+  <data key="d0">fired heater</data>
+</node>
+<node id="ES-e910482f-7728-40f9-9e8c-2c3725fb1cfa">
+  <data key="d0">ES</data>
+</node>
+<node id="ES-e0f8c583-b605-4902-94b1-41c6aaef7e73">
+  <data key="d0">ES</data>
+</node>
+<node id="MS-ead2f6dd-457b-425c-acf4-70e7f8d9413c">
+  <data key="d0">feed_1</data>
+</node>
+<node id="MIX-9c6c738e-b6ea-40f3-9be9-7985ee84bd32">
+  <data key="d0">MIX</data>
+</node>
+<node id="ES-4d34f36d-0b7e-495d-a861-cef57df18e7e">
+  <data key="d0">ES</data>
+</node>
+<node id="CR-1e47b960-f5ec-4dfd-bc14-291cfe19d782">
+  <data key="d0">reactor</data>
+</node>
+<node id="MS-d9daaa7c-85e8-42cb-ac47-222f8002145a">
+  <data key="d0">MS</data>
+</node>
+<node id="MS-0fdce5ec-7d2a-4a86-83f5-26be304dcbbc">
+  <data key="d0">crude product</data>
+</node>
+<node id="MS-64ba2b5c-081d-4182-915f-03c05cb92cbb">
+  <data key="d0"> hot coolant outlet</data>
+</node>
+<node id="CL-3395186c-19b2-4819-bec3-e7b67274d258">
+  <data key="d0">CL</data>
+</node>
+<node id="MS-41509c6f-270e-4b2e-81ac-f16da1d27b20">
+  <data key="d0">crude product Cool</data>
+</node>
+<node id="MIX-4c395a5b-947a-4a98-af60-11fa37e11a36">
+  <data key="d0">MIX</data>
+</node>
+<node id="CL-5beb90aa-3dd3-4608-9d09-78a01add7fd4">
+  <data key="d0">CL</data>
+</node>
+<node id="MS-88789395-ed77-414a-aab0-b01ce9c7e67e">
+  <data key="d0">waste gases</data>
+</node>
+<node id="CS-830277cd-c824-4232-a629-559f548a0d94">
+  <data key="d0">seperator</data>
+</node>
+<node id="MS-0fe59ff8-4b58-4828-a7b0-e5f64f39d869">
+  <data key="d0">maleic anhyride_raw</data>
+</node>
+<node id="SC-6c7341a5-f609-4c9b-90d9-7c1a113c1a48">
+  <data key="d0">dibutyl seperator</data>
+</node>
+<node id="ES-59417e7b-a6f0-446b-a0d9-c7dc66b854c2">
+  <data key="d0">ES</data>
+</node>
+<node id="MS-8d640640-19dc-4096-ae61-bcacee57ab72">
+  <data key="d0">dibutyl_pthalate fresh</data>
+</node>
+<node id="MS-ba156767-ec8b-430d-8422-e0bcf503d860">
+  <data key="d0">dibutyl_bottom</data>
+</node>
+<node id="REC-b56b8d19-f77c-444b-a058-4e2668ea72c7">
+  <data key="d0">REC</data>
+</node>
+<node id="MS-cdfd00e0-32d2-487c-a947-d6ebb41270ea">
+  <data key="d0">MS</data>
+</node>
+<node id="ES-74927525-2693-4de8-9544-7e596481a588">
+  <data key="d0">ES</data>
+</node>
+<node id="MS-267cc0ce-9b77-4755-9058-7bdd55105822">
+  <data key="d0">maleic_anhydride</data>
+</node>
+<node id="MS-5ecee6df-51cc-460a-9537-e124229d59e5">
+  <data key="d0">dibutyl recycle</data>
+</node>
+<node id="ES-32169b1d-23b8-4d7a-b78c-7b2124a3c229">
+  <data key="d0">ES</data>
+</node>
+<node id="d1de5f14-fc8e-4cd4-ae2a-207b355dc955">
+  <data key="d0">d1de5f14</data>
+</node>
+<node id="MS-5934dbac-f407-4e1e-83e4-a2664843d983">
+  <data key="d0">recycle coolant</data>
+</node>
+<node id="REC-ee96ba04-6230-43df-8b6e-4f0bb42f4e01">
+  <data key="d0">REC</data>
+</node>
+<node id="MS-9f0c30dd-51de-40ad-831e-5b87c30b4f3b">
+  <data key="d0">coolant</data>
+</node>
+<node id="ES-1c7e8071-fa06-4aa5-9f88-6c5c62e7b126">
+  <data key="d0">ES</data>
+</node>
+<node id="ES-7149807e-b653-4215-a5ff-da676582bff8">
+  <data key="d0">ES</data>
+</node>
+<edge source="MS-c229021f-5973-473a-8073-758181f89802" target="PUMP-fdacf378-d8b9-454f-a079-b83a29d3eb65"/>
+<edge source="PUMP-fdacf378-d8b9-454f-a079-b83a29d3eb65" target="MS-603a9565-4f3b-4d18-9065-dcf8dc327c0d"/>
+<edge source="ES-67046f70-b4a1-4a8d-8c3f-5891b80afc1d" target="PUMP-fdacf378-d8b9-454f-a079-b83a29d3eb65"/>
+<edge source="MS-603a9565-4f3b-4d18-9065-dcf8dc327c0d" target="HX-42e98597-e94d-4e11-8e74-a4bcf845d561"/>
+<edge source="MS-2ad36d14-f13c-438e-887a-d58e60f26572" target="MIX-0afff2b2-9669-4cae-bb1b-d49784d74f8f"/>
+<edge source="MIX-0afff2b2-9669-4cae-bb1b-d49784d74f8f" target="MS-2924df7a-3d50-4223-8ce3-e61da9746b25"/>
+<edge source="MS-df1441ac-5a96-48f6-b757-3d162b81477c" target="MIX-0afff2b2-9669-4cae-bb1b-d49784d74f8f"/>
+<edge source="MS-2924df7a-3d50-4223-8ce3-e61da9746b25" target="C-9e32b4bd-80b8-4577-a32a-c5e546cfd2b2"/>
+<edge source="C-9e32b4bd-80b8-4577-a32a-c5e546cfd2b2" target="MS-81a17779-c03d-4eda-9d8d-b9b2df7f1e49"/>
+<edge source="HX-42e98597-e94d-4e11-8e74-a4bcf845d561" target="MS-9c9fddf4-97c7-40ce-b4f6-beec551924b2"/>
+<edge source="HX-42e98597-e94d-4e11-8e74-a4bcf845d561" target="MS-81ab41e4-7a5d-4b17-ac14-064a40dd3a32"/>
+<edge source="MS-9c9fddf4-97c7-40ce-b4f6-beec551924b2" target="MIX-bd249e95-c9ec-49c4-9918-af6205efc0d1"/>
+<edge source="MIX-bd249e95-c9ec-49c4-9918-af6205efc0d1" target="MS-d5029b2f-d648-4dd9-9674-a4bd74dabb05"/>
+<edge source="MS-28c6916d-d26e-4127-a373-9f2bf2ce940d" target="HX-42e98597-e94d-4e11-8e74-a4bcf845d561"/>
+<edge source="MS-81a17779-c03d-4eda-9d8d-b9b2df7f1e49" target="MIX-bd249e95-c9ec-49c4-9918-af6205efc0d1"/>
+<edge source="MS-d5029b2f-d648-4dd9-9674-a4bd74dabb05" target="HT-0dbe2f6f-1310-42a9-bafc-f54d6e4cae49"/>
+<edge source="HT-0dbe2f6f-1310-42a9-bafc-f54d6e4cae49" target="MS-ead2f6dd-457b-425c-acf4-70e7f8d9413c"/>
+<edge source="ES-e910482f-7728-40f9-9e8c-2c3725fb1cfa" target="C-9e32b4bd-80b8-4577-a32a-c5e546cfd2b2"/>
+<edge source="ES-e0f8c583-b605-4902-94b1-41c6aaef7e73" target="HT-0dbe2f6f-1310-42a9-bafc-f54d6e4cae49"/>
+<edge source="MS-ead2f6dd-457b-425c-acf4-70e7f8d9413c" target="MIX-9c6c738e-b6ea-40f3-9be9-7985ee84bd32"/>
+<edge source="MIX-9c6c738e-b6ea-40f3-9be9-7985ee84bd32" target="MS-d9daaa7c-85e8-42cb-ac47-222f8002145a"/>
+<edge source="ES-4d34f36d-0b7e-495d-a861-cef57df18e7e" target="CR-1e47b960-f5ec-4dfd-bc14-291cfe19d782"/>
+<edge source="CR-1e47b960-f5ec-4dfd-bc14-291cfe19d782" target="MS-0fdce5ec-7d2a-4a86-83f5-26be304dcbbc"/>
+<edge source="CR-1e47b960-f5ec-4dfd-bc14-291cfe19d782" target="MS-64ba2b5c-081d-4182-915f-03c05cb92cbb"/>
+<edge source="MS-d9daaa7c-85e8-42cb-ac47-222f8002145a" target="CR-1e47b960-f5ec-4dfd-bc14-291cfe19d782"/>
+<edge source="MS-0fdce5ec-7d2a-4a86-83f5-26be304dcbbc" target="CL-3395186c-19b2-4819-bec3-e7b67274d258"/>
+<edge source="MS-64ba2b5c-081d-4182-915f-03c05cb92cbb" target="CL-5beb90aa-3dd3-4608-9d09-78a01add7fd4"/>
+<edge source="CL-3395186c-19b2-4819-bec3-e7b67274d258" target="MS-41509c6f-270e-4b2e-81ac-f16da1d27b20"/>
+<edge source="CL-3395186c-19b2-4819-bec3-e7b67274d258" target="ES-7149807e-b653-4215-a5ff-da676582bff8"/>
+<edge source="MS-41509c6f-270e-4b2e-81ac-f16da1d27b20" target="MIX-4c395a5b-947a-4a98-af60-11fa37e11a36"/>
+<edge source="MIX-4c395a5b-947a-4a98-af60-11fa37e11a36" target="MS-cdfd00e0-32d2-487c-a947-d6ebb41270ea"/>
+<edge source="CL-5beb90aa-3dd3-4608-9d09-78a01add7fd4" target="MS-9f0c30dd-51de-40ad-831e-5b87c30b4f3b"/>
+<edge source="CL-5beb90aa-3dd3-4608-9d09-78a01add7fd4" target="ES-1c7e8071-fa06-4aa5-9f88-6c5c62e7b126"/>
+<edge source="CS-830277cd-c824-4232-a629-559f548a0d94" target="MS-88789395-ed77-414a-aab0-b01ce9c7e67e"/>
+<edge source="CS-830277cd-c824-4232-a629-559f548a0d94" target="MS-0fe59ff8-4b58-4828-a7b0-e5f64f39d869"/>
+<edge source="CS-830277cd-c824-4232-a629-559f548a0d94" target="ES-59417e7b-a6f0-446b-a0d9-c7dc66b854c2"/>
+<edge source="MS-0fe59ff8-4b58-4828-a7b0-e5f64f39d869" target="SC-6c7341a5-f609-4c9b-90d9-7c1a113c1a48"/>
+<edge source="SC-6c7341a5-f609-4c9b-90d9-7c1a113c1a48" target="MS-267cc0ce-9b77-4755-9058-7bdd55105822"/>
+<edge source="SC-6c7341a5-f609-4c9b-90d9-7c1a113c1a48" target="MS-5ecee6df-51cc-460a-9537-e124229d59e5"/>
+<edge source="SC-6c7341a5-f609-4c9b-90d9-7c1a113c1a48" target="ES-32169b1d-23b8-4d7a-b78c-7b2124a3c229"/>
+<edge source="MS-8d640640-19dc-4096-ae61-bcacee57ab72" target="MIX-4c395a5b-947a-4a98-af60-11fa37e11a36"/>
+<edge source="MS-ba156767-ec8b-430d-8422-e0bcf503d860" target="MIX-4c395a5b-947a-4a98-af60-11fa37e11a36"/>
+<edge source="REC-b56b8d19-f77c-444b-a058-4e2668ea72c7" target="MS-ba156767-ec8b-430d-8422-e0bcf503d860"/>
+<edge source="MS-cdfd00e0-32d2-487c-a947-d6ebb41270ea" target="CS-830277cd-c824-4232-a629-559f548a0d94"/>
+<edge source="ES-74927525-2693-4de8-9544-7e596481a588" target="SC-6c7341a5-f609-4c9b-90d9-7c1a113c1a48"/>
+<edge source="MS-5ecee6df-51cc-460a-9537-e124229d59e5" target="REC-b56b8d19-f77c-444b-a058-4e2668ea72c7"/>
+<edge source="MS-5934dbac-f407-4e1e-83e4-a2664843d983" target="MIX-9c6c738e-b6ea-40f3-9be9-7985ee84bd32"/>
+<edge source="REC-ee96ba04-6230-43df-8b6e-4f0bb42f4e01" target="MS-5934dbac-f407-4e1e-83e4-a2664843d983"/>
+<edge source="MS-9f0c30dd-51de-40ad-831e-5b87c30b4f3b" target="REC-ee96ba04-6230-43df-8b6e-4f0bb42f4e01"/>
+</graph></graphml>
