@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<graph edgedefault="directed">
+<node id="hex-1"/>
+<node id="raw-1"/>
+<node id="raw-2"/>
+<node id="prod-1"/>
+<node id="prod-2"/>
+<edge source="hex-1" target="prod-1"/>
+<edge source="hex-1" target="prod-2"/>
+<edge source="raw-1" target="hex-1"/>
+<edge source="raw-2" target="hex-1"/>
+<edge source = "hex-1" target="raw-2"/>
+</graph></graphml>
